@@ -1,0 +1,6 @@
+source 'https://github.com/WZLYiOS/WZPodSpecs.git'
+use_frameworks!
+
+target 'WZFoundationExtension_Example' do
+  pod 'WZFoundationExtension', :path => '../'
+end

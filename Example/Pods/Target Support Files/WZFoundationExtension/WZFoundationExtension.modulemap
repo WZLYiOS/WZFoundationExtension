@@ -1,0 +1,6 @@
+framework module WZFoundationExtension {
+  umbrella header "WZFoundationExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

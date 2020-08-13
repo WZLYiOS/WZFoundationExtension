@@ -1,0 +1,31 @@
+{
+  "name": "WZFoundationExtension",
+  "version": "0.1.0",
+  "summary": "A short description of WZFoundationExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/WZLYiOS/WZFoundationExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LiuSky": "327847390@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/WZLYiOS/WZFoundationExtension.git",
+    "tag": "0.1.0"
+  },
+  "static_framework": true,
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "WZFoundationExtension/Classes/**/*",
+  "dependencies": {
+    "WZNamespaceWrappable": [
+      "~> 1.0.0"
+    ]
+  },
+  "swift_version": "5.0"
+}
