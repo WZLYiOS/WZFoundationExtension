@@ -17,4 +17,16 @@ public extension Array where Element: Equatable {
         // Thanks to https://github.com/sairamkotha for improving the method
         return self.reduce([]){ $0.contains($1) ? $0 : $0 + [$1] }
     }
+    
+    /// 去重
+    mutating func filterDuplicate<E: Equatable>(_ filter: (Element) -> E) {
+        var result = [Element]()
+        for value in self {
+            let key = filter(value)
+            if !result.map({filter($0)}).contains(key) {
+                result.append(value)
+            }
+        }
+        self = result
+    }
 }
