@@ -9,13 +9,11 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'LiuSky' => '327847390@qq.com' }
   s.source           = { :git => 'https://github.com/WZLYiOS/WZFoundationExtension.git', :tag => s.version.to_s }
-  s.static_framework = true
-  s.swift_version         = '5.0'
-  s.requires_arc = true
-  s.ios.deployment_target = '10.0'
+
+  
+  s.swift_versions   = '5.0'
+  s.ios.deployment_target = '11.0'
   s.source_files = 'WZFoundationExtension/Classes/**/*'
-  s.dependency 'WZNamespaceWrappable', '~> 2.1.0'
-  s.user_target_xcconfig = {
-    'GENERATE_INFOPLIST_FILE' => 'YES'
-  }
+  s.dependency 'WZNamespaceWrappable', '~> 2.1.2'
+
 end

@@ -1,9 +1,9 @@
 {
   "name": "WZFoundationExtension",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "summary": "FoundationExtension.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://code.aliyun.com/wzlyios/WZFoundationExtension",
+  "homepage": "https://github.com/WZLYiOS/WZFoundationExtension.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,23 +12,18 @@
     "LiuSky": "327847390@qq.com"
   },
   "source": {
-    "git": "https://code.aliyun.com/wzlyios/WZFoundationExtension.git",
-    "tag": "2.1.1"
+    "git": "https://github.com/WZLYiOS/WZFoundationExtension.git",
+    "tag": "3.0.0"
   },
-  "static_framework": true,
   "swift_versions": "5.0",
-  "requires_arc": true,
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
   "source_files": "WZFoundationExtension/Classes/**/*",
   "dependencies": {
     "WZNamespaceWrappable": [
-      "~> 2.1.0"
+      "~> 2.1.2"
     ]
-  },
-  "user_target_xcconfig": {
-    "GENERATE_INFOPLIST_FILE": "YES"
   },
   "swift_version": "5.0"
 }

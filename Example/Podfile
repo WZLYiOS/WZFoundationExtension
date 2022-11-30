@@ -1,4 +1,4 @@
-source 'https://code.aliyun.com/wzlyios/WZLYPodSpecs.git'
+source 'https://github.com/WZLYiOS/WZPodSpecs.git'
 
 use_frameworks!
 
