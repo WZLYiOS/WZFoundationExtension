@@ -15,9 +15,11 @@
     "git": "https://github.com/WZLYiOS/WZFoundationExtension.git",
     "tag": "3.0.0"
   },
+  "static_framework": true,
   "swift_versions": "5.0",
+  "requires_arc": true,
   "platforms": {
-    "ios": "11.0"
+    "ios": "10.0"
   },
   "source_files": "WZFoundationExtension/Classes/**/*",
   "dependencies": {
