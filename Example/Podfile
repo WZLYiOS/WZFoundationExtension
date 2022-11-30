@@ -1,4 +1,5 @@
-source 'https://github.com/WZLYiOS/WZPodSpecs.git'
+source 'https://code.aliyun.com/wzlyios/WZLYPodSpecs.git'
+
 use_frameworks!
 
 target 'WZFoundationExtension_Example' do

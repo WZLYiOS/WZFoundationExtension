@@ -16,46 +16,43 @@ import Foundation
  对类型扩展实现 NamespaceWrappable 协议，只需要写一次。如果对 UIView 已经写了 NamespaceWrappable 协议实现，则 UILabel 不需要再写。实际上写了之后，编译会报错。
  如果在实现的 func 前加上 static 关键字，可以扩展出静态方法。
  */
-public protocol WZNamespaceWrappable {
-    associatedtype WrapperType
-    var wz: WrapperType { get set }
-    static var wz: WrapperType.Type { get set }
+public struct WZNamespaceWrappable<Base> {
+    public let base: Base
+    public init(_ base: Base) {
+        self.base = base
+    }
 }
+public protocol WZNamespaceCompatible: AnyObject { }
+public protocol WZNamespaceCompatibleValue {}
 
-public extension WZNamespaceWrappable {
-    var wz: WZNamespaceWrapper<Self> {
-        get {
-            return WZNamespaceWrapper(value: self)
-        } set {
-            
-        }
+extension WZNamespaceCompatible {
+    public var wz: WZNamespaceWrappable<Self> {
+        get { return WZNamespaceWrappable(self) }
+        set { }
     }
     
-    static var wz: WZNamespaceWrapper<Self>.Type {
-        get {
-            return WZNamespaceWrapper.self
-        } set {
-            
-        }
+    public static var wz: WZNamespaceWrappable<Self>.Type {
+        return WZNamespaceWrappable<Self>.self
     }
 }
 
-public protocol WZTypeWrapperProtocol {
-    associatedtype WrappedType
-    var wrappedValue: WrappedType { get }
-    init(value: WrappedType)
-}
-
-public struct WZNamespaceWrapper<T>: WZTypeWrapperProtocol {
-    public let wrappedValue: T
-    public init(value: T) {
-        self.wrappedValue = value
+/// 值类型
+extension WZNamespaceCompatibleValue {
+    public var wz: WZNamespaceWrappable<Self> {
+        get { return WZNamespaceWrappable(self) }
+        set { }
+    }
+    
+    public static var wz: WZNamespaceWrappable<Self>.Type {
+            return WZNamespaceWrappable<Self>.self
     }
 }
 
-
-// MARK: - WZNamespaceWrappable
-import class Foundation.NSObject
-extension NSObject: WZNamespaceWrappable { }
+extension NSObject: WZNamespaceCompatible { }
+extension Int: WZNamespaceCompatibleValue { }
+extension Data: WZNamespaceCompatibleValue { }
+extension Date: WZNamespaceCompatibleValue { }
+extension String: WZNamespaceCompatibleValue { }
+extension Array: WZNamespaceCompatibleValue { }
 
 

@@ -5,12 +5,12 @@
 //  Created by qiuqixiang on 2021/2/2.
 //
 
-import AVFoundation
 import Foundation
+import AVFoundation
 import WZNamespaceWrappable
 
 // MARK - 设备授权
-public extension WZNamespaceWrapper where WrappedType == AVCaptureDevice {
+public extension WZNamespaceWrappable where Base: AVCaptureDevice {
     
     /// 视频校验权限
     static func authorizationVideoStatus(comple: ((_ granted: Bool) -> Void)?) {

@@ -11,15 +11,15 @@ import CommonCrypto
 import WZNamespaceWrappable
 
 
-extension Dictionary: WZNamespaceWrappable { }
-public extension WZNamespaceWrapper where WrappedType == Dictionary<String, Any> {
+extension Dictionary: WZNamespaceCompatibleValue { }
+public extension WZNamespaceWrappable where Base == Dictionary<String, Any> {
 
     /// 合并
     /// - Parameter other: Dictionary<String, Any>
     /// - Returns: Dictionary<String, Any>
     func merge(_ other: Dictionary<String, Any>) -> Dictionary<String, Any> {
         var newDictionary = other
-        for (k ,v) in wrappedValue {
+        for (k ,v) in base {
             newDictionary[k] = v
         }
         return newDictionary

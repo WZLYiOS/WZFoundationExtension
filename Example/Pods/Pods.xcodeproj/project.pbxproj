@@ -540,10 +540,11 @@
 			};
 			name = Release;
 		};
-		32BA37EEAC84572A0C9003836DB0DC32 /* Debug */ = {
+		294CF32F2681D89AB58FF184F9E448A9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D45CEE4B2D132B2AE546A13131796C3B /* WZNamespaceWrappable.debug.xcconfig */;
+			baseConfigurationReference = AF02738AB6311640B4A414E0FDB3CB0D /* WZNamespaceWrappable.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -555,7 +556,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable.modulemap";
@@ -566,10 +567,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		50296CA734AC007C6AB6DC10516DA90E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -635,6 +637,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		767FAECCE85FA4DB2F576E4A419E2899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45CEE4B2D132B2AE546A13131796C3B /* WZNamespaceWrappable.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable.modulemap";
+				PRODUCT_MODULE_NAME = WZNamespaceWrappable;
+				PRODUCT_NAME = WZNamespaceWrappable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -764,46 +798,14 @@
 			};
 			name = Debug;
 		};
-		F50587E01A84A86A61DB57702B50C2E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF02738AB6311640B4A414E0FDB3CB0D /* WZNamespaceWrappable.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable.modulemap";
-				PRODUCT_MODULE_NAME = WZNamespaceWrappable;
-				PRODUCT_NAME = WZNamespaceWrappable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2A895D1653F8050E20FBF0842B782BA3 /* Build configuration list for PBXNativeTarget "WZNamespaceWrappable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32BA37EEAC84572A0C9003836DB0DC32 /* Debug */,
-				F50587E01A84A86A61DB57702B50C2E3 /* Release */,
+				767FAECCE85FA4DB2F576E4A419E2899 /* Debug */,
+				294CF32F2681D89AB58FF184F9E448A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

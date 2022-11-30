@@ -11,22 +11,21 @@ import Foundation
 import WZNamespaceWrappable
 
 
-extension Int: WZNamespaceWrappable { }
-public extension WZNamespaceWrapper where WrappedType == Int {
+public extension WZNamespaceWrappable where Base == Int {
     
     /// rgb
     var color: UIColor {
         
-        let red = CGFloat(wrappedValue as Int >> 16 & 0xff) / 255
-        let green = CGFloat(wrappedValue >> 8 & 0xff) / 255
-        let blue  = CGFloat(wrappedValue & 0xff) / 255
+        let red = CGFloat(base as Int >> 16 & 0xff) / 255
+        let green = CGFloat(base >> 8 & 0xff) / 255
+        let blue  = CGFloat(base & 0xff) / 255
         return UIColor(red: red, green: green, blue: blue, alpha: 1)
     }
     
     
     /// 转换成CGflof
     var f: CGFloat {
-        return CGFloat(wrappedValue)
+        return CGFloat(base)
     }
 
     
@@ -44,7 +43,7 @@ public extension WZNamespaceWrapper where WrappedType == Int {
         
         let timer = DispatchSource.makeTimerSource()
         timer.schedule(wallDeadline: .now(), repeating: Double(interval))
-        var timeout = wrappedValue
+        var timeout = base
         timer.setEventHandler(handler: {
             
             timeout -= interval

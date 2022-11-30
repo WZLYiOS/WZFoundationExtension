@@ -170,6 +170,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = TA399PG2C9;
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -372,6 +373,7 @@
 			baseConfigurationReference = CC853A4A752F4D9BA8F9091C /* Pods-WZFoundationExtension_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TA399PG2C9;
 				INFOPLIST_FILE = WZFoundationExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -388,6 +390,7 @@
 			baseConfigurationReference = 49B770538233AFBE51A9F5A8 /* Pods-WZFoundationExtension_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TA399PG2C9;
 				INFOPLIST_FILE = WZFoundationExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

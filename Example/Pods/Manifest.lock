@@ -1,13 +1,13 @@
 PODS:
-  - WZFoundationExtension (0.1.2):
-    - WZNamespaceWrappable (~> 1.0.0)
-  - WZNamespaceWrappable (1.0.0)
+  - WZFoundationExtension (2.1.0):
+    - WZNamespaceWrappable (~> 2.1.0)
+  - WZNamespaceWrappable (2.1.0)
 
 DEPENDENCIES:
   - WZFoundationExtension (from `../`)
 
 SPEC REPOS:
-  https://github.com/WZLYiOS/WZPodSpecs.git:
+  https://code.aliyun.com/wzlyios/WZLYPodSpecs.git:
     - WZNamespaceWrappable
 
 EXTERNAL SOURCES:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WZFoundationExtension: 3696031de0c37f8246bafef49a967c3bb610c31b
-  WZNamespaceWrappable: 880bfa32c164bb80381ae65a49350c81521765d4
+  WZFoundationExtension: 7f5eff46724d97e98a52a69a8a2686dea7aaabfb
+  WZNamespaceWrappable: 8aa6ead5b4b7a9bc873ed07f6c94d42b017340b0
 
-PODFILE CHECKSUM: 164c4799f2d66a10935aab416a30111886762394
+PODFILE CHECKSUM: 2e1e2301d875af55aa742e3d17cabc9727a62ba3
 
 COCOAPODS: 1.10.0

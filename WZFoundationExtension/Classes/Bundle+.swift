@@ -11,7 +11,7 @@ import Foundation
 import WZNamespaceWrappable
 
 /// MARK - Bundle
-public extension WZNamespaceWrapper where WrappedType == Bundle {
+public extension WZNamespaceWrappable where Base == Bundle {
     
     enum InfoKey: String {
         case shortVersion = "CFBundleShortVersionString"
@@ -19,7 +19,7 @@ public extension WZNamespaceWrapper where WrappedType == Bundle {
     }
     
     subscript<T>(key: InfoKey) -> T {
-        guard let value = wrappedValue.infoDictionary?[key.rawValue] as? T else {
+        guard let value = base.infoDictionary?[key.rawValue] as? T else {
 
             fatalError("资源找不到\(key.rawValue).")
         }
