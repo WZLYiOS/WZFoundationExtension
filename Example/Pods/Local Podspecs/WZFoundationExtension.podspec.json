@@ -1,7 +1,7 @@
 {
   "name": "WZFoundationExtension",
-  "version": "2.1.0",
-  "summary": "A short description of WZFoundationExtension.",
+  "version": "2.1.1",
+  "summary": "FoundationExtension.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://code.aliyun.com/wzlyios/WZFoundationExtension",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://code.aliyun.com/wzlyios/WZFoundationExtension.git",
-    "tag": "2.1.0"
+    "tag": "2.1.1"
   },
   "static_framework": true,
   "swift_versions": "5.0",
@@ -26,6 +26,9 @@
     "WZNamespaceWrappable": [
       "~> 2.1.0"
     ]
+  },
+  "user_target_xcconfig": {
+    "GENERATE_INFOPLIST_FILE": "YES"
   },
   "swift_version": "5.0"
 }
