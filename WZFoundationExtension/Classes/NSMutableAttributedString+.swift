@@ -116,3 +116,23 @@ public extension WZNamespaceWrappable where Base: NSMutableAttributedString {
     }
 }
 
+/// MARK - 扩展
+extension NSMutableAttributedString {
+    
+    /// 简易富文本
+    public convenience init(string: String, lineSpacing: CGFloat? = nil, font: UIFont? = nil, color: UIColor? = nil) {
+        self.init(string: string)
+        
+        if let f = font {
+            self.wz.setFont(font: f)
+        }
+        
+        if let l = lineSpacing {
+            self.wz.setLineSpace(l)
+        }
+        if let c = color {
+            self.wz.setTextColor(color: c)
+        }
+        
+    }
+}
