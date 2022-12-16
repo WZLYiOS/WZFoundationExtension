@@ -12,16 +12,44 @@ import WZNamespaceWrappable
 
 
 extension Dictionary: WZNamespaceCompatibleValue { }
-public extension WZNamespaceWrappable where Base == Dictionary<String, Any> {
 
-    /// 合并
-    /// - Parameter other: Dictionary<String, Any>
-    /// - Returns: Dictionary<String, Any>
-    func merge(_ other: Dictionary<String, Any>) -> Dictionary<String, Any> {
-        var newDictionary = other
-        for (k ,v) in base {
-            newDictionary[k] = v
+
+/// 合并协议
+public protocol Mergable {
+    func merge(withOther:Self) -> Self
+}
+
+// MARK: - 字典合并
+public extension Dictionary where Value : Mergable {
+    func merge(withDictionary: Dictionary) -> Dictionary {
+        var returnDictionary = withDictionary
+        for (key, value) in self {
+            if let withDictionaryValue = withDictionary[key] {
+                returnDictionary[key] = value.merge(withOther: withDictionaryValue)
+            } else {
+                returnDictionary[key] = value
+            }
         }
-        return newDictionary
+        return returnDictionary
+    }
+}
+
+
+extension WZNamespaceWrappable where Base == Dictionary<AnyHashable, Any> {
+    
+    /// 转string
+    var stringValue: String {
+        if let jsonData = try? JSONSerialization.data(withJSONObject: base, options: []),
+           let json = String(data: jsonData, encoding: .utf8) {
+            return json
+        }
+        return ""
+    }
+    
+    /// 合并
+    func merge(withDictionary: Dictionary<AnyHashable, Any>) -> Dictionary<AnyHashable, Any> {
+        var returnDictionary = withDictionary
+        base.keys.forEach {returnDictionary[$0] = base[$0]}
+        return returnDictionary
     }
 }

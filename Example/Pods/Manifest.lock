@@ -1,5 +1,5 @@
 PODS:
-  - WZFoundationExtension (3.0.0):
+  - WZFoundationExtension (3.0.1):
     - WZNamespaceWrappable (~> 2.1.2)
   - WZNamespaceWrappable (2.1.2)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WZFoundationExtension: b62a65967635f9560bc7a20f896156d497dbcef1
+  WZFoundationExtension: 677cf9c2723cfddd2b0b073d2402b84cae963dfb
   WZNamespaceWrappable: 65604717d18c3a2892d90270ff96487da1009d7c
 
 PODFILE CHECKSUM: d46a614e53a17bb17bd9cee461c834319f30effe

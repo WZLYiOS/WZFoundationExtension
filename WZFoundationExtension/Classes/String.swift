@@ -1,0 +1,70 @@
+//
+//  String.swift
+//  WZLY
+//
+//  Created by xiaobin liu on 2020/3/6.
+//  Copyright © 2020 我主良缘. All rights reserved.
+//
+
+import Foundation
+import WZNamespaceWrappable
+
+// MARK - 扩展
+public extension WZNamespaceWrappable where Base == String {
+    
+    /// 获取字符串宽高
+    /// - Parameters:
+    ///   - size: 限制宽度高度
+    ///   - font: 字体大小
+    func stringSize(width: CGFloat, font: UIFont) -> CGSize {
+        return (base as NSString).boundingRect(with: CGSize(width: width, height: CGFloat(MAXFLOAT)), options: .usesFontLeading, attributes: [NSAttributedString.Key.font: font], context: nil).size
+    }
+    
+    
+    /// 字符串转中划线
+    var  baselineSingleAttributed: NSMutableAttributedString {
+        let text = NSMutableAttributedString(string: base)
+        var priceAttribute: [NSAttributedString.Key: Any] = [NSAttributedString.Key.strikethroughStyle:
+                                                                NSUnderlineStyle.single.rawValue,
+                                                             NSAttributedString.Key.baselineOffset:
+                                                                NSUnderlineStyle.single.rawValue]
+                
+         if #available(iOS 10.3, *) {
+            priceAttribute[NSAttributedString.Key.baselineOffset] = 0
+         }
+
+        text.setAttributes(priceAttribute, range: NSRange(location: 0, length: base.count))
+        return text
+    }
+    
+    /// 匹配字符串
+    func range(of: String) -> NSRange {
+        return (base as NSString).range(of: of)
+    }
+    
+    /// 添加钱符号
+    var cny: String {
+        return "¥"+base
+    }
+    
+    // 返回高斯模糊地址
+    func blur(radius: Int = 50, sigma: Int = 30) -> String {
+        return base + "?imageMogr2/blur/\(radius)x\(sigma)"
+    }
+    
+    /// 转Int
+    var intValue: Int {
+        return Int(base) ?? 0
+    }
+    
+    ///  字符串装字典
+    var dictionary: NSDictionary? {
+        guard let jsonData = base.data(using: .utf8),
+              let dict = try? JSONSerialization.jsonObject(with: jsonData, options: .mutableContainers) as? NSDictionary else {
+            return nil
+        }
+        return dict
+    }
+}
+
+

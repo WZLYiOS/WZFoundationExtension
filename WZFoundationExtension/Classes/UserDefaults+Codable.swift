@@ -12,7 +12,6 @@ import Foundation
 /// MARK - UserDefaults仓库
 public protocol UserDefaultsStorage {
     
-    
     /// 保存对象到UserDefaults
     ///
     /// - Parameter defaultName: key(最好key最好以工程的BundleId+key，以避免冲突)
@@ -73,4 +72,5 @@ extension UserDefaultsStorage where Self: Codable {
 
 // MARK: - Array(为数组也添加保存以及获取的能力)
 extension Array: UserDefaultsStorage where Element: Codable {
+
 }
