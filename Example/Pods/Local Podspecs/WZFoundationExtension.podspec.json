@@ -1,6 +1,6 @@
 {
   "name": "WZFoundationExtension",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "summary": "FoundationExtension.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/WZLYiOS/WZFoundationExtension.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/WZLYiOS/WZFoundationExtension.git",
-    "tag": "3.0.1"
+    "tag": "3.0.2"
   },
   "static_framework": true,
   "swift_versions": "5.0",
