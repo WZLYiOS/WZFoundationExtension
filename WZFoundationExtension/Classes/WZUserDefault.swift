@@ -33,6 +33,45 @@ public struct WZUserDefault<Value: PropertyListValue> {
     }
 }
 
+// MARK - 存储Codable类型
+@available(iOS 2.0, OSX 10.0, tvOS 9.0, watchOS 2.0, *)
+@propertyWrapper
+public struct WZUserDefaultCodable<Value: Codable> {
+    
+    let key: String
+    let defaultValue: Value?
+    var userDefaults: UserDefaults
+    
+    public init(_ key: String, defaultValue: Value? = nil, userDefaults: UserDefaults = .standard) {
+        self.key = key
+        self.defaultValue = defaultValue
+        self.userDefaults = userDefaults
+    }
+    
+    public var wrappedValue: Value? {
+        get {
+            guard let jsonString = UserDefaults.standard.object(forKey: key) as? String,
+                let jsonData = jsonString.data(using: .utf8),
+                  let result = try? JSONDecoder().decode(Value.self, from: jsonData)
+                else {
+                    return nil
+            }
+            return result
+        }
+        set {
+            let encoder = JSONEncoder()
+            encoder.outputFormatting = .prettyPrinted
+            guard let data = try? encoder.encode(newValue),
+                let stringJson = String(data: data, encoding: .utf8) else {
+                    return
+            }
+            UserDefaults.standard.set(stringJson, forKey: key)
+            UserDefaults.standard.synchronize()
+        }
+    }
+}
+
+
 
 /// MARK - 属性列表值协议
 public protocol PropertyListValue {}
