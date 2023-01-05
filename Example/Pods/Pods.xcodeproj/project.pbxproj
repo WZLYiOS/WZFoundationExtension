@@ -17,7 +17,6 @@
 		44FBB74F3CC15942A19C841BE9651EA1 /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480AA40644F05E15BD5B400C0D81E398 /* Array+.swift */; };
 		5AC89C86855D0F2220D25135538DDF1D /* AVCaptureDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAE9AEC4773B2A45F2CC25F36699A1D /* AVCaptureDevice+.swift */; };
 		5FEA32FE1B029B214175581DFF51B443 /* WZNamespaceWrappable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EAB43FDEF819C152D0D889174C74F /* WZNamespaceWrappable-dummy.m */; };
-		63C6CA50B2CA5A6DC21C11ACEEAE7973 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7727ED671DFA37AF63DC417959611358 /* String+MD5.swift */; };
 		6D20F580CC4CD128174043A5D2399A95 /* Int+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CFFBC3D9DFC3B903B6229DE73E824D /* Int+.swift */; };
 		70D56B32AC7B1CEE2C0E0C5B9186BC94 /* WZFoundationExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69BAEBCD1F472CB7E964FD3B3C7F2E03 /* WZFoundationExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		867A72291F29FED9A3F13EC4BC36E079 /* NSMutableAttributedString+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7341CD73FC968B310FCED0B292167A10 /* NSMutableAttributedString+.swift */; };
@@ -64,7 +63,7 @@
 		04896894D519A765BCAC16F2727119BF /* String+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+.swift"; path = "WZFoundationExtension/Classes/String+.swift"; sourceTree = "<group>"; };
 		0BF136E28F8DF6B9CFADC2F695407D7A /* Double+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+.swift"; path = "WZFoundationExtension/Classes/Double+.swift"; sourceTree = "<group>"; };
 		0D4066527504166AB2536DD333EED111 /* Pods-WZFoundationExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZFoundationExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1A8037605A2171A421740B385EA125C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1A8037605A2171A421740B385EA125C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		20825AD4C4CCEF36239BE06466B1AE89 /* Pods-WZFoundationExtension_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WZFoundationExtension_Example"; path = Pods_WZFoundationExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		241E243CAE12CD9EA987CE75C93DAB1B /* Pods-WZFoundationExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZFoundationExtension_Example-Info.plist"; sourceTree = "<group>"; };
 		290A16FF6A9A8F94D5562579BB921A1F /* URL+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+.swift"; path = "WZFoundationExtension/Classes/URL+.swift"; sourceTree = "<group>"; };
@@ -84,16 +83,15 @@
 		71BC5CA505FCB1C7360187CBA325F282 /* WZFoundationExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZFoundationExtension; path = WZFoundationExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7341CD73FC968B310FCED0B292167A10 /* NSMutableAttributedString+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+.swift"; path = "WZFoundationExtension/Classes/NSMutableAttributedString+.swift"; sourceTree = "<group>"; };
-		770DF8260F2F58B21C71A1286C54C58D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7727ED671DFA37AF63DC417959611358 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "WZFoundationExtension/Classes/String+MD5.swift"; sourceTree = "<group>"; };
+		770DF8260F2F58B21C71A1286C54C58D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		831B6818272569434AF622D02F42CBC2 /* WZFoundationExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZFoundationExtension.modulemap; sourceTree = "<group>"; };
 		86F6BC1B580FDB893178632B457AFAF1 /* Dictionary+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+.swift"; path = "WZFoundationExtension/Classes/Dictionary+.swift"; sourceTree = "<group>"; };
 		8AAE9AEC4773B2A45F2CC25F36699A1D /* AVCaptureDevice+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVCaptureDevice+.swift"; path = "WZFoundationExtension/Classes/AVCaptureDevice+.swift"; sourceTree = "<group>"; };
 		92C2BF91D4C3C9A6D47F342E62F7486D /* WZNamespaceWrappable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZNamespaceWrappable-prefix.pch"; sourceTree = "<group>"; };
 		946EAB43FDEF819C152D0D889174C74F /* WZNamespaceWrappable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZNamespaceWrappable-dummy.m"; sourceTree = "<group>"; };
 		98EBC9ABAD94232B331E6B5CF77A7AAA /* WZNamespaceWrappable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZNamespaceWrappable-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E9087C84604BBCC2B0AC42F9CA9A85C /* WZFoundationExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WZFoundationExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9087C84604BBCC2B0AC42F9CA9A85C /* WZFoundationExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WZFoundationExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0115B211C04E27173CCEDBD2B3CC388 /* Pods-WZFoundationExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZFoundationExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A2C848E52F083A02DC0D08C01E987FBA /* Pods-WZFoundationExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZFoundationExtension_Example-umbrella.h"; sourceTree = "<group>"; };
 		A887EEDEFEAD4F61A302ABEF015F308A /* WZNamespaceWrappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WZNamespaceWrappable.swift; path = WZNamespaceWrappable/Classes/WZNamespaceWrappable.swift; sourceTree = "<group>"; };
@@ -155,7 +153,6 @@
 				7341CD73FC968B310FCED0B292167A10 /* NSMutableAttributedString+.swift */,
 				FC5EBFA3E103B8D5024CB5194169EB1E /* PHAsset+.swift */,
 				04896894D519A765BCAC16F2727119BF /* String+.swift */,
-				7727ED671DFA37AF63DC417959611358 /* String+MD5.swift */,
 				3D403BF3C4B94D299F837EABE9DD920F /* Timer+.swift */,
 				290A16FF6A9A8F94D5562579BB921A1F /* URL+.swift */,
 				6B9A8F1B00E4F4E42A75D4310C41E76B /* UserDefaults+Codable.swift */,
@@ -282,7 +279,6 @@
 				A887EEDEFEAD4F61A302ABEF015F308A /* WZNamespaceWrappable.swift */,
 				9BDC15F87DB635C921CF1E9642996EBE /* Support Files */,
 			);
-			name = WZNamespaceWrappable;
 			path = WZNamespaceWrappable;
 			sourceTree = "<group>";
 		};
@@ -461,7 +457,6 @@
 				867A72291F29FED9A3F13EC4BC36E079 /* NSMutableAttributedString+.swift in Sources */,
 				BF0823F0CFE2DF1EF9E93AD85D7E4205 /* PHAsset+.swift in Sources */,
 				20A493779EDFFB0C4106D09D18E242FE /* String+.swift in Sources */,
-				63C6CA50B2CA5A6DC21C11ACEEAE7973 /* String+MD5.swift in Sources */,
 				C7698B163B8F97C9F83E2CBE8EA97D56 /* Timer+.swift in Sources */,
 				92B7EF3054EBD64D5040A22975CA0C14 /* URL+.swift in Sources */,
 				33B2667EF75A1E1DFA81DFC29AD4DEB1 /* UserDefaults+Codable.swift in Sources */,
@@ -625,8 +620,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
