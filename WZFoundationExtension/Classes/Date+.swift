@@ -984,6 +984,39 @@ public extension WZNamespaceWrappable where Base == Date {
     static func secondsToDayHoursMinutesSeconds(seconds : Int) -> (Int, Int, Int, Int) {
         return (seconds/(24*3600), seconds%(24*3600)/3600, (seconds)%3600/60, (seconds)%60)
     }
+    
+    /// 小时/分钟/秒转换为整数
+    static func getSecondsFromString(timeString: String) -> (Int) {
+      let timeParts = timeString.replacingOccurrences(of: "[^0-9]", with: " ", options: [.regularExpression])
+                                .split(separator: " ")
+                                .map{Int($0)!}
+        
+        switch timeParts.count {
+        case 1:
+            if timeString.contains("小时") {
+                return timeParts[0] * 3600
+            } else if timeString.contains("分") {
+                return timeParts[0] * 60
+            } else if timeString.contains("秒") {
+                return timeParts[0]
+            } else {
+                return 0
+            }
+        case 2:
+            if timeString.contains("小时") && timeString.contains("分") {
+                return timeParts[0] * 3600 + timeParts[1] * 60
+            } else if timeString.contains("分") && timeString.contains("秒") {
+                return  timeParts[1] * 60 + timeParts[2]
+            } else if timeString.contains("小时") && timeString.contains("秒") {
+                return timeParts[0] * 3600 + timeParts[2]
+            }else{
+                return 0
+            }
+            
+        default:
+            return timeParts[0] * 3600 + timeParts[1] * 60 + timeParts[2]
+        }
+    }
 }
 
 
