@@ -44,6 +44,7 @@ public extension WZNamespaceWrappable where Base: NSMutableAttributedString {
     func setLineSpace(_ lineSpace: CGFloat, range: NSRange? = nil){
         let mPara = NSMutableParagraphStyle()
         mPara.lineSpacing = lineSpace;
+        mPara.lineBreakMode = NSLineBreakMode.byTruncatingTail;
         setAttribute(name: NSAttributedString.Key.paragraphStyle, value: mPara, range: range ?? NSRange(location: 0, length: base.length))
     }
     

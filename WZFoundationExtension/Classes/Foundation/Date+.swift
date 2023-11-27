@@ -922,9 +922,9 @@ public extension WZNamespaceWrappable where Base == Date {
     }
     
     /// 时间戳 秒
-    var timeStamp: Int {
+    var timeStamp: Int64 {
         let timeInterval: TimeInterval = base.timeIntervalSince1970
-        let timeStamp = Int(timeInterval)
+        let timeStamp = Int64(timeInterval)
         return timeStamp
     }
     

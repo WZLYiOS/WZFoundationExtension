@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WZFoundationExtension'
-  s.version          = '3.1.0'
+  s.version          = '3.1.1'
   s.summary          = 'FoundationExtension.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -14,7 +14,15 @@ TODO: Add long description of the pod here.
   s.swift_versions   = '5.0'
   s.requires_arc = true
   s.ios.deployment_target = '10.0'
-  s.source_files = 'WZFoundationExtension/Classes/**/*'
-  s.dependency 'WZNamespaceWrappable', '~> 2.1.3'
 
+  s.dependency 'WZNamespaceWrappable', '>= 2.1.3'
+
+  s.subspec 'Foundation' do |ss|
+       ss.source_files = 'WZFoundationExtension/Classes/Foundation/*'
+   end
+     
+   s.subspec 'UI' do |ss|
+       ss.source_files = 'WZFoundationExtension/Classes/UI/*'
+   end
+  
 end
