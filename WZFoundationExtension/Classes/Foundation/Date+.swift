@@ -10,7 +10,7 @@ import Foundation
 import WZNamespaceWrappable
 
 /// MARK - date + 
-extension Date {
+public extension Date {
     
     // 时间秒，转换为 00：00：00 格式
     static func transToHourMinSec(time: Int) -> String{
