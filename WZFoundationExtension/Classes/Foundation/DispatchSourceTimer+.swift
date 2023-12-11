@@ -9,7 +9,7 @@
 import Foundation
 
 /// 代理
-protocol WZDispatchSourceTimerDelegate: AnyObject {
+public protocol WZDispatchSourceTimerDelegate: AnyObject {
     
     /// 定时器回调
     func eventHandler(timer: WZDispatchSourceTimer)
@@ -22,22 +22,22 @@ protocol WZDispatchSourceTimerDelegate: AnyObject {
 public class WZDispatchSourceTimer: NSObject {
     
     /// 代理
-    weak var delegate: WZDispatchSourceTimerDelegate?
+    public weak var delegate: WZDispatchSourceTimerDelegate?
     
     /// 定时器
-    var timer: DispatchSourceTimer?
+    public var timer: DispatchSourceTimer?
     
     /// 间隔
-    var interval: Int = 1
+    public var interval: Int = 1
     
     /// 当前执行秒数
-    var currentNum: Int = 0
+    public var currentNum: Int = 0
     
     /// 过期时间
-    var timeout: Int = 0
+    public var timeout: Int = 0
     
     /// 定时器是否在执行
-    var isRun: Bool = false
+    public var isRun: Bool = false
     
     public init(interval: Int = 1) {
         super.init()
@@ -49,13 +49,13 @@ public class WZDispatchSourceTimer: NSObject {
     }
     
     /// 定时器暂停
-    func suspend() {
+    public func suspend() {
         isRun = false
         timer?.suspend()
     }
     
     /// 开启定时器
-    func resume() {
+    public func resume() {
         isRun = true
         
         if let ti = timer, ti.isCancelled == false {
@@ -83,7 +83,7 @@ public class WZDispatchSourceTimer: NSObject {
         timer = time
     }
     
-    func cancel() {
+    public func cancel() {
         currentNum = 0
         isRun = false
         timer?.cancel()
