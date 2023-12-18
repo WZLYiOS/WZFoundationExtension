@@ -929,7 +929,7 @@ public extension WZNamespaceWrappable where Base == Date {
     }
     
     /// 获取当前 毫秒级 时间戳 - 13位
-    var milliStamp : Int64 {
+    var milliStamp: Int64 {
         let timeInterval: TimeInterval = base.timeIntervalSince1970
         let millisecond = CLongLong(round(timeInterval*1000))
         return Int64(millisecond)

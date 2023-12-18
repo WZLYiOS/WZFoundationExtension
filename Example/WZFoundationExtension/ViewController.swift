@@ -13,9 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-        let xx = Date.wz.getSecondsFromString(timeString: "1小时")
-        debugPrint(xx)
+  
     }
 
     override func didReceiveMemoryWarning() {
