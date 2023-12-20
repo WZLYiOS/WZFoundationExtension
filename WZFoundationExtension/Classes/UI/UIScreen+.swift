@@ -53,4 +53,8 @@ public extension WZNamespaceWrappable where Base: UIScreen {
         return 49+safeAreaInsetsBottom
     }
     
+    /// 导航栏高度
+    static var navigationHeight: CGFloat {
+        return 44+statusHeight
+    }
 }
