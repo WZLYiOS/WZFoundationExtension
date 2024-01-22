@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '3.1.7'
   s.summary          = 'FoundationExtension.'
   s.description      = <<-DESC
-TODO: Add long descr
+TODO: Add long descr, 富文本等扩展
                        DESC
   s.homepage         = 'https://github.com/WZLYiOS/WZFoundationExtension.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
