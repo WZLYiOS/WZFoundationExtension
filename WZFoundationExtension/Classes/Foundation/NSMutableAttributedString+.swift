@@ -11,54 +11,112 @@ import WZNamespaceWrappable
 /// MARK -  NSMutableAttributedString扩展
 public extension WZNamespaceWrappable where Base: NSMutableAttributedString {
     
-    
-    func convenientSet( font: UIFont, textColor: UIColor, backColor: UIColor = UIColor.clear, lineSpace: CGFloat = 5, range: NSRange = NSRange(location: 0, length: 0)) {
-        let useRange = range.length == 0 ? NSRange(location: 0, length: base.length) : range
-        setFont(font: font, range: useRange)
-        setTextColor(color: textColor, range: useRange)
-        setBackColor(color: backColor, range: useRange)
-        setLineSpace(lineSpace, range: useRange)
+    /// 富文本容器
+    var attributes: [NSAttributedString.Key: Any] {
+        let dic = base.attributes(at: 0, effectiveRange: nil)
+        return dic 
     }
     
-    /// 设置字体
+    /// 获取当前的
+    var range: NSRange {
+        return NSRange(location: 0, length: base.length)
+    }
+    
+    /// 设置字号
+    var font: UIFont? {
+        get {
+            return attributes[NSAttributedString.Key.font] as? UIFont
+        }
+        set{
+            setAttribute(name: NSAttributedString.Key.font, value: newValue)
+        }
+    }
     func setFont(font: UIFont, range: NSRange? = nil) {
-        setAttribute(name: NSAttributedString.Key.font, value: font, range: range ?? NSRange(location: 0, length: base.length))
+        setAttribute(name: NSAttributedString.Key.font, value: font, range: range ?? base.wz.range)
+    }
+    
+    /// 背景颜色 /// 设置文字背景色
+    var backColor: UIColor? {
+        get {
+            return attributes[NSAttributedString.Key.backgroundColor] as? UIColor
+        }
+        set{
+            setAttribute(name: NSAttributedString.Key.backgroundColor, value: newValue)
+        }
+    }
+    func setBackColor(color: UIColor, range: NSRange? = nil) {
+        setAttribute(name: NSAttributedString.Key.backgroundColor, value: color, range: range ?? base.wz.range)
     }
     
     /// 设置文字颜色
-    func setTextColor(color: UIColor, range: NSRange? = nil) {
-        setAttribute(name: NSAttributedString.Key.foregroundColor, value: color, range: range ?? NSRange(location: 0, length: base.length))
+    var color: UIColor? {
+        get {
+            return attributes[NSAttributedString.Key.foregroundColor] as? UIColor
+        }
+        set{
+            setAttribute(name: NSAttributedString.Key.foregroundColor, value: newValue)
+        }
     }
-    
-    /// 设置文字背景色
-    func setBackColor(color: UIColor, range: NSRange? = nil) {
-        setAttribute(name: NSAttributedString.Key.backgroundColor, value: color, range: range ?? NSRange(location: 0, length: base.length))
+    func setTextColor(color: UIColor, range: NSRange? = nil) {
+        setAttribute(name: NSAttributedString.Key.foregroundColor, value: color, range: range ?? base.wz.range)
     }
     
     /// 设置下划线样式
+    var underLineStyle: NSUnderlineStyle? {
+        get {
+            return attributes[NSAttributedString.Key.underlineStyle] as? NSUnderlineStyle
+        }
+        set{
+            setAttribute(name: NSAttributedString.Key.underlineStyle, value: newValue)
+        }
+    }
     func setUnderLineStyle(lineStyle: NSUnderlineStyle, range: NSRange? = nil) {
-        setAttribute(name: NSAttributedString.Key.underlineStyle, value: lineStyle, range: range ?? NSRange(location: 0, length: base.length))
+        setAttribute(name: NSAttributedString.Key.underlineStyle, value: lineStyle, range: range ?? base.wz.range)
+    }
+    
+    /// 设置文本段落样式的类
+    var paragraphStyle: NSParagraphStyle? {
+        get {
+            return attributes[NSAttributedString.Key.paragraphStyle] as? NSParagraphStyle
+        }
+        set{
+            setParagraphStyle(newValue ?? NSParagraphStyle.default)
+        }
+    }
+    func setParagraphStyle(_ paragraphStyle: NSParagraphStyle, range: NSRange? = nil) {
+        setAttribute(name: NSAttributedString.Key.paragraphStyle, value: paragraphStyle, range: range ?? base.wz.range)
     }
     
     /// 设置行间距
+    var lineSpace: CGFloat {
+        get {
+            return base.wz.paragraphStyle?.lineSpacing ?? 0
+        }
+        set{
+            setLineSpace(newValue)
+        }
+    }
     func setLineSpace(_ lineSpace: CGFloat, range: NSRange? = nil){
-        let mPara = NSMutableParagraphStyle()
-        mPara.lineSpacing = lineSpace;
-        mPara.lineBreakMode = NSLineBreakMode.byTruncatingTail;
-        setAttribute(name: NSAttributedString.Key.paragraphStyle, value: mPara, range: range ?? NSRange(location: 0, length: base.length))
+        let mPara = base.wz.paragraphStyle ?? NSParagraphStyle.default
+        setAttribute(name: NSAttributedString.Key.paragraphStyle, value: mPara, range: range ?? base.wz.range)
     }
     
+    
     /// 设置属性
-    func setAttribute(name: NSAttributedString.Key, value: Any, range: NSRange? = nil) {
+    func setAttribute(name: NSAttributedString.Key, value: Any?, range: NSRange? = nil) {
         if name.rawValue.count==0 {
             return
         }
-        base.addAttribute(name, value: value, range: range ?? NSRange(location: 0, length: base.length))
+        guard let v = value else {
+            return
+        }
+        
+        let r = range ?? base.wz.range
+        base.addAttribute(name, value: v, range: r)
     }
     
     /// 计算富文本高度
     func getContentHeight(with: CGFloat, maxHeight: CGFloat = CGFloat(MAXFLOAT) ) -> CGFloat {
-        
         let frame = base.boundingRect(with: CGSize(width: with, height: maxHeight), options: NSStringDrawingOptions(rawValue: NSStringDrawingOptions.usesLineFragmentOrigin.rawValue | NSStringDrawingOptions.usesFontLeading.rawValue), context: nil)
         return frame.size.height
     }
@@ -70,6 +128,14 @@ public extension WZNamespaceWrappable where Base: NSMutableAttributedString {
         attch.image = image
         let attachment = NSAttributedString(attachment: attch)
         base.append(attachment)
+    }
+    
+    func convenientSet( font: UIFont, textColor: UIColor, backColor: UIColor = UIColor.clear, lineSpace: CGFloat = 5, range: NSRange = NSRange(location: 0, length: 0)) {
+        let useRange = range.length == 0 ? NSRange(location: 0, length: base.length) : range
+        setFont(font: font, range: useRange)
+        setTextColor(color: textColor, range: useRange)
+        setBackColor(color: backColor, range: useRange)
+        setLineSpace(lineSpace, range: useRange)
     }
     
     /// 塞入富文本

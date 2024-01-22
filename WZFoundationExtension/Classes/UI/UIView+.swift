@@ -85,5 +85,12 @@ public extension WZNamespaceWrappable where Base: UIView {
        shapLayer.path = path
         base.layer.mask = shapLayer
     }
+    
+    /// 移除所有子元素
+    func removeAllSubviews() {
+        base.subviews.forEach{
+            $0.removeFromSuperview()
+        }
+    }
 }
 
