@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WZFoundationExtension'
-  s.version          = '3.1.8'
+  s.version          = '3.1.9'
   s.summary          = 'FoundationExtension.'
   s.description      = <<-DESC
 TODO: Add long descr, 富文本等扩展，自定义label

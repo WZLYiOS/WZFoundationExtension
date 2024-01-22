@@ -19,7 +19,10 @@ class ViewController: UIViewController {
         label.backgroundColor = UIColor.red
         label.textColor = UIColor.white
         label.numberOfLines = 0
-        label.text = "是是是是事实是是事实是萨回到家啊搭嘎即获得久啊都感觉阿萨德刚阿基德噶十多个啊时间的话国剧盛典个啊好多个几哈是的"
+        let text = NSMutableAttributedString(string: "是是是是事实是是事实是萨回到家啊搭嘎即获得久啊都感觉阿萨德刚阿基德噶十多个啊时间的话国剧盛典个啊好多个几哈是的")
+        text.wz.lineSpacing = 10
+        text.wz.color = UIColor.orange
+        label.attributedText = text
         label.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(label)
         

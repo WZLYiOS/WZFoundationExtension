@@ -87,6 +87,14 @@ public extension WZNamespaceWrappable where Base: NSMutableAttributedString {
         setAttribute(name: NSAttributedString.Key.paragraphStyle, value: paragraphStyle, range: range ?? base.wz.range)
     }
     
+    /// 可变段落
+    private var mutableParagraphStyle: NSMutableParagraphStyle {
+        guard let style = base.wz.paragraphStyle?.mutableCopy() as? NSMutableParagraphStyle else {
+            return NSMutableParagraphStyle.default.mutableCopy() as! NSMutableParagraphStyle
+        }
+        return style
+    }
+    
     /// 设置行间距
     var lineSpacing: CGFloat {
         get {
@@ -97,8 +105,22 @@ public extension WZNamespaceWrappable where Base: NSMutableAttributedString {
         }
     }
     func setLineSpace(_ lineSpace: CGFloat, range: NSRange? = nil){
-        let mPara = base.wz.paragraphStyle ?? NSParagraphStyle.default
-        setAttribute(name: NSAttributedString.Key.paragraphStyle, value: mPara, range: range ?? base.wz.range)
+        base.wz.mutableParagraphStyle.lineSpacing = lineSpace
+        setParagraphStyle(base.wz.mutableParagraphStyle)
+    }
+    
+    /// 文本对齐
+    var alignment: NSTextAlignment {
+        get {
+            return base.wz.mutableParagraphStyle.alignment
+        }
+        set{
+            setAlignment(newValue)
+        }
+    }
+    func setAlignment(_ alignment: NSTextAlignment, range: NSRange? = nil){
+        base.wz.mutableParagraphStyle.alignment = alignment
+        setParagraphStyle(base.wz.mutableParagraphStyle)
     }
     
     
