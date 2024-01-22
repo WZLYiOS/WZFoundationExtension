@@ -13,7 +13,7 @@ import WZNamespaceWrappable
 extension Decimal: WZNamespaceCompatibleValue { }
 
 // MARK - 资源
-extension WZNamespaceWrappable where Base == Decimal {
+public extension WZNamespaceWrappable where Base == Decimal {
    
     func price(format: String = "%.2f", unit: Int = 100, isOmit: Bool = true) -> String {
         let num = base/Decimal(unit) as NSNumber

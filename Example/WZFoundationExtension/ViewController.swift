@@ -15,13 +15,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
   
         let label = PaddedLabel()
-        label.textContainerInset = UIEdgeInsets(top: 20, left: 10, bottom: 10, right: 10)
+        label.textContainerInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         label.backgroundColor = UIColor.red
         label.textColor = UIColor.white
         label.numberOfLines = 0
-        let text = NSMutableAttributedString(string: "是是是是事实是是事实是萨回到家啊搭嘎即获得久啊都感觉阿萨德刚阿基德噶十多个啊时间的话国剧盛典个啊好多个几哈是的")
+        let text = NSMutableAttributedString(string: "我们是一个非常好的人，所以我们要热爱大自然")
         text.wz.lineSpacing = 10
         text.wz.color = UIColor.orange
+        text.wz.setKern(10, range: NSRange(location: 0, length: 1))
+        text.wz.setMarn(space: 30, at: 3)
         label.attributedText = text
         label.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(label)

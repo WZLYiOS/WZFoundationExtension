@@ -123,6 +123,23 @@ public extension WZNamespaceWrappable where Base: NSMutableAttributedString {
         setParagraphStyle(base.wz.mutableParagraphStyle)
     }
     
+    /// 设置字体间距
+    var kern: CGFloat? {
+        get {
+            return attributes[NSAttributedString.Key.kern] as? CGFloat
+        }
+        set{
+            setAttribute(name: NSAttributedString.Key.kern, value: newValue)
+        }
+    }
+    func setKern(_ value: CGFloat, range: NSRange? = nil) {
+        setAttribute(name: NSAttributedString.Key.kern, value: value, range: range ?? base.wz.range)
+    }
+    
+    /// 增加一个空白间距
+    func setMarn(space: CGFloat, at: Int) {
+        base.insert(NSAttributedString(string: " ", attributes: [.kern: space]), at: at)
+    }
     
     /// 设置属性
     func setAttribute(name: NSAttributedString.Key, value: Any?, range: NSRange? = nil) {
@@ -150,14 +167,6 @@ public extension WZNamespaceWrappable where Base: NSMutableAttributedString {
         attch.image = image
         let attachment = NSAttributedString(attachment: attch)
         base.append(attachment)
-    }
-    
-    func convenientSet( font: UIFont, textColor: UIColor, backColor: UIColor = UIColor.clear, lineSpace: CGFloat = 5, range: NSRange = NSRange(location: 0, length: 0)) {
-        let useRange = range.length == 0 ? NSRange(location: 0, length: base.length) : range
-        setFont(font: font, range: useRange)
-        setTextColor(color: textColor, range: useRange)
-        setBackColor(color: backColor, range: useRange)
-        setLineSpace(lineSpace, range: useRange)
     }
     
     /// 塞入富文本
