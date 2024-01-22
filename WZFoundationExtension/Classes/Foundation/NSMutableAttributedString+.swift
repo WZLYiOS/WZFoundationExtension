@@ -88,7 +88,7 @@ public extension WZNamespaceWrappable where Base: NSMutableAttributedString {
     }
     
     /// 设置行间距
-    var lineSpace: CGFloat {
+    var lineSpacing: CGFloat {
         get {
             return base.wz.paragraphStyle?.lineSpacing ?? 0
         }

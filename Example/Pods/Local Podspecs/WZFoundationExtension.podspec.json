@@ -1,8 +1,8 @@
 {
   "name": "WZFoundationExtension",
-  "version": "3.1.4",
+  "version": "3.1.7",
   "summary": "FoundationExtension.",
-  "description": "TODO: Add long descri x",
+  "description": "TODO: Add long descr, 富文本等扩展",
   "homepage": "https://github.com/WZLYiOS/WZFoundationExtension.git",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/WZLYiOS/WZFoundationExtension.git",
-    "tag": "3.1.4"
+    "tag": "3.1.7"
   },
   "static_framework": true,
   "swift_versions": "5.0",
