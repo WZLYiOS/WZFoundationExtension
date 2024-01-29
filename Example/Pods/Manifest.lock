@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WZFoundationExtension: f89e0f136b9d0bedf1c8fd4f6a097793e81ee193
+  WZFoundationExtension: b7ceb198e39f7bf6cc642ac99b1023e810a8c1cb
   WZNamespaceWrappable: 73359e8ff0882ef5ee9724d067b7c9790c00f999
 
 PODFILE CHECKSUM: 405b0fdb39edabe7b3785bcc59c5e7d6cb7860da

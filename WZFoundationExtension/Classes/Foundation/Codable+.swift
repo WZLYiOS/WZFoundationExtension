@@ -12,7 +12,7 @@ import Foundation
 import WZNamespaceWrappable
 
 // MARK - 数据转换
-public extension WZNamespaceWrappable where Base == Encodable {
+public extension WZNamespaceWrappable where Base == Codable {
     
     /// data数据
     var data: Data? {
