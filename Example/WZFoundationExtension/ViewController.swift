@@ -8,6 +8,16 @@
 
 import UIKit
 import WZFoundationExtension
+import WZNamespaceWrappable
+
+struct TestModel: Codable {
+    let text: String
+    
+    init(text: String) {
+        self.text = text
+    }
+}
+
 
 class ViewController: UIViewController {
 
@@ -34,6 +44,8 @@ class ViewController: UIViewController {
             label.widthAnchor.constraint(equalToConstant: 300)
         ])
         
+        let model = TestModel(text: "213")
+        debugPrint(model.toString())
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,4 +54,5 @@ class ViewController: UIViewController {
     }
 
 }
+
 

@@ -12,27 +12,25 @@ import Foundation
 import WZNamespaceWrappable
 
 // MARK - 数据转换
-public extension WZNamespaceWrappable where Base == Codable {
+public extension Encodable {
     
-    /// data数据
-    var data: Data? {
-        return try? JSONEncoder().encode(base)
+    func toData() -> Data? {
+        let encoder = JSONEncoder()
+        return try? encoder.encode(self)
     }
     
-    /// 转成json数据
-    var dic: [String: Any] {
-        guard let data = data, let dictionary = try? JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String: Any] else {
-            return [:]
-        }
-        return dictionary
-    }
-    
-    /// string
-    var jsonString: String {
-        guard let d = data, let json = String(data: d, encoding: .utf8) else {
+    func toString() -> String {
+        guard let d = toData(), let json = String(data: d, encoding: .utf8) else {
             return ""
         }
         return json
+    }
+    
+    func toDic() -> [String: Any] {
+        guard let data = toData(), let dictionary = try? JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String: Any] else {
+            return [:]
+        }
+        return dictionary
     }
 }
 

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WZFoundationExtension'
-  s.version          = '3.2.2'
+  s.version          = '3.2.3'
   s.summary          = 'FoundationExtension.'
   s.description      = <<-DESC
 TODO: Add long descr asaa 

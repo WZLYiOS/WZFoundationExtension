@@ -1,8 +1,8 @@
 {
   "name": "WZFoundationExtension",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "summary": "FoundationExtension.",
-  "description": "TODO: Add long descr",
+  "description": "TODO: Add long descr asaa",
   "homepage": "https://github.com/WZLYiOS/WZFoundationExtension.git",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/WZLYiOS/WZFoundationExtension.git",
-    "tag": "3.2.1"
+    "tag": "3.2.2"
   },
   "static_framework": true,
   "swift_versions": "5.0",
