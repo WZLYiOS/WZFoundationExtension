@@ -12,6 +12,7 @@
 		23EDA105C677CDAA69A0C6753CE0A8AE /* PHAsset+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F5EE0925F205146AE80F6CBBAD4FF /* PHAsset+.swift */; };
 		27D761E6F490352662EBA7EB47933F17 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913A5AB9B1EFD97301BD75A2FE712290 /* Date+.swift */; };
 		281C52762B5E13C8002D2B83 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281C52752B5E13C8002D2B83 /* PaddedLabel.swift */; };
+		283DC8982B63516B003BDBE3 /* Codable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC8972B63516B003BDBE3 /* Codable+.swift */; };
 		37BA71D81C8BAD7648589536E9E1381D /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2B6A58CABB8AA3939654F7F39A4A5A /* UILabel+.swift */; };
 		381CE671A90E7C02852F9B5B13998793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3C6F0BC6804E220B0ECC827019C8E598 /* Pods-WZFoundationExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABD8D593E4350232FC35878D561F7B2 /* Pods-WZFoundationExtension_Example-dummy.m */; };
@@ -92,6 +93,7 @@
 		22F8FB72231C9F555F1645BCDC96497E /* UIAlertAction+Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertAction+Image.swift"; path = "WZFoundationExtension/Classes/UI/UIAlertAction+Image.swift"; sourceTree = "<group>"; };
 		241E243CAE12CD9EA987CE75C93DAB1B /* Pods-WZFoundationExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZFoundationExtension_Example-Info.plist"; sourceTree = "<group>"; };
 		281C52752B5E13C8002D2B83 /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaddedLabel.swift; path = WZFoundationExtension/Classes/UI/PaddedLabel.swift; sourceTree = "<group>"; };
+		283DC8972B63516B003BDBE3 /* Codable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Codable+.swift"; path = "WZFoundationExtension/Classes/Foundation/Codable+.swift"; sourceTree = "<group>"; };
 		2EB74A6B50A33D523BAA7750DAC261A1 /* Array+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+.swift"; path = "WZFoundationExtension/Classes/Foundation/Array+.swift"; sourceTree = "<group>"; };
 		3ABD8D593E4350232FC35878D561F7B2 /* Pods-WZFoundationExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZFoundationExtension_Example-dummy.m"; sourceTree = "<group>"; };
 		4DE08BB1BCCBF708C2594C5D34352EEA /* Timer+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Timer+.swift"; path = "WZFoundationExtension/Classes/Foundation/Timer+.swift"; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				4DE08BB1BCCBF708C2594C5D34352EEA /* Timer+.swift */,
 				1BF727C47D917BF05F868E2D19AE8A42 /* URL+.swift */,
 				8814854DEB8D442ACEA43A008FDB56D9 /* UserDefaults+Codable.swift */,
+				283DC8972B63516B003BDBE3 /* Codable+.swift */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -522,6 +525,7 @@
 				E9DB330B2AADDFB39DCED886633E047F /* NSMutableAttributedString+.swift in Sources */,
 				23EDA105C677CDAA69A0C6753CE0A8AE /* PHAsset+.swift in Sources */,
 				BA12516C08D1CBCA1D99020EED10AF8E /* String+.swift in Sources */,
+				283DC8982B63516B003BDBE3 /* Codable+.swift in Sources */,
 				698ACE8D24C10C4DC530DDB8EAE71B04 /* Timer+.swift in Sources */,
 				A6BC572D4EA40018C1C72388C6232C41 /* UIAlertAction+Image.swift in Sources */,
 				6991E6FB8BDD82C2C2FAA98A9A46640A /* UIAlertController+.swift in Sources */,
