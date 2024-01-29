@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '3.2.1'
   s.summary          = 'FoundationExtension.'
   s.description      = <<-DESC
-TODO: Add long descr
+TODO: Add long descr,新增docebel
                        DESC
   s.homepage         = 'https://github.com/WZLYiOS/WZFoundationExtension.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -13,7 +13,7 @@ TODO: Add long descr
   s.static_framework = true
   s.swift_versions   = '5.0'
   s.requires_arc = true
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.dependency 'WZNamespaceWrappable', '>= 2.1.3'
 

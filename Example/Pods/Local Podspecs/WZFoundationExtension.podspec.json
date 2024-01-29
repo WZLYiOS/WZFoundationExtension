@@ -1,8 +1,8 @@
 {
   "name": "WZFoundationExtension",
-  "version": "3.1.7",
+  "version": "3.2.1",
   "summary": "FoundationExtension.",
-  "description": "TODO: Add long descr, 富文本等扩展",
+  "description": "TODO: Add long descr,新增docebel",
   "homepage": "https://github.com/WZLYiOS/WZFoundationExtension.git",
   "license": {
     "type": "MIT",
@@ -13,13 +13,13 @@
   },
   "source": {
     "git": "https://github.com/WZLYiOS/WZFoundationExtension.git",
-    "tag": "3.1.7"
+    "tag": "3.2.1"
   },
   "static_framework": true,
   "swift_versions": "5.0",
   "requires_arc": true,
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
   "dependencies": {
     "WZNamespaceWrappable": [

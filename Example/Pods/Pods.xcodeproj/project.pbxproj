@@ -7,156 +7,156 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1500615953628300CCE4C91ED5A99472 /* NSDecimalNumber+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2F8FAE0B812A27A111EF9A078A090 /* NSDecimalNumber+.swift */; };
-		1F3D1C35DF8614EF211FBFC73C4131D9 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4139359B50F6A66CA556DFCDCE815 /* UIColor+.swift */; };
-		23EDA105C677CDAA69A0C6753CE0A8AE /* PHAsset+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F5EE0925F205146AE80F6CBBAD4FF /* PHAsset+.swift */; };
-		27D761E6F490352662EBA7EB47933F17 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913A5AB9B1EFD97301BD75A2FE712290 /* Date+.swift */; };
-		281C52762B5E13C8002D2B83 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281C52752B5E13C8002D2B83 /* PaddedLabel.swift */; };
-		283DC8982B63516B003BDBE3 /* Codable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC8972B63516B003BDBE3 /* Codable+.swift */; };
-		37BA71D81C8BAD7648589536E9E1381D /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2B6A58CABB8AA3939654F7F39A4A5A /* UILabel+.swift */; };
-		381CE671A90E7C02852F9B5B13998793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		06E75F0F6709D4BD6FB7930E4FC5A15F /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A68C684FC76AA3C45295D62D76ABB4 /* Double+.swift */; };
+		0FC911B76F7BD36218EB6E0876B76C7B /* Int+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F50448F6D6D3186A2360A5E19F953A3 /* Int+.swift */; };
+		259ABA64136ACF210A3AE31E7DE67C6F /* WZGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9FE1105CA59463E553E44F0A218A7 /* WZGradientButton.swift */; };
+		3167AEC4950C3BE6A64A8140C5C64B34 /* UIScreen+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA3CFC5919A522FD5BB1A6DF29204FD /* UIScreen+.swift */; };
+		324608ECD9F4F30D0A6250DDA604EEF9 /* UIControl+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1EAB7D684FD5C013E61A4FE5D77752 /* UIControl+.swift */; };
+		37D2E81D9D4D8A6C2DD1584016F8AF78 /* Bundle+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166197F51AD8183D9ABBC356C6A08FF /* Bundle+.swift */; };
+		38A5D611EC008702E771D479C07EA498 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073504E2DC0ECA5A955BC436E9731C22 /* UIButton+.swift */; };
+		3A63971D3567EA9BCEB3E2D466DA8195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3C6F0BC6804E220B0ECC827019C8E598 /* Pods-WZFoundationExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABD8D593E4350232FC35878D561F7B2 /* Pods-WZFoundationExtension_Example-dummy.m */; };
-		3DC44B7B24401CD5CDFC1B78F5EE9A33 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A2DAD70022348AC0F8975E241D29E /* UIStackView+.swift */; };
-		3F8327CA7EF9FDB2A5AA20ED30C7492C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3F84DB14639F762310DDA5B1F8798B13 /* WZNamespaceWrappable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EBC9ABAD94232B331E6B5CF77A7AAA /* WZNamespaceWrappable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4071B60A7BE216C7E645A4D917B3B630 /* Bool+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547705716883072F3B4C152B8E24AA5D /* Bool+.swift */; };
-		449150D37FDC6E8EAC86E73E1430888C /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057616215CB0D72676532F9D906B9C1E /* Double+.swift */; };
-		45C30E03F0F68EC5EDE9E2CB7D7CB1A4 /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F340AB59F4C143E04F9AD17D3BF8B69 /* UITableView+.swift */; };
-		56486CB5D2E99F4ED3FD28031505A24F /* UIControl+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55AABE060205D59F9A5BCABAF89D0A0 /* UIControl+.swift */; };
-		5BE27D3EAD5023EE890DDED9B175C69C /* UserDefaults+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814854DEB8D442ACEA43A008FDB56D9 /* UserDefaults+Codable.swift */; };
-		65474E07DE80BB69397D9505C8007E23 /* WZFoundationExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A91F55EBCBA7401E72359CEB8114F12 /* WZFoundationExtension-dummy.m */; };
-		698ACE8D24C10C4DC530DDB8EAE71B04 /* Timer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE08BB1BCCBF708C2594C5D34352EEA /* Timer+.swift */; };
-		6991E6FB8BDD82C2C2FAA98A9A46640A /* UIAlertController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E5A2FD0EDA34C63E9AD7B8F437F7D0 /* UIAlertController+.swift */; };
-		6C813F3965C91126F978D576730CD05D /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB74A6B50A33D523BAA7750DAC261A1 /* Array+.swift */; };
-		6F3B9DDC09748CD74BFEE9A1E219FE2C /* URL+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF727C47D917BF05F868E2D19AE8A42 /* URL+.swift */; };
-		713789734DFF04D6991D120728C303A8 /* WZCAGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042716B869D1B34C48FD116C91AE5A2A /* WZCAGradientView.swift */; };
-		77322C45A2BF666CF221BDB1334D0072 /* WZFoundationExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EAC6DBC961AE248A1EE1354DB5557B2 /* WZFoundationExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8446130383DECC65485C8C6D39637CDC /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536A666F02C190355C6390521333181 /* UIImage+.swift */; };
-		A1C7F0CAD6B57D8EAA0126E1049197DB /* Bundle+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0398862CB01367E549CC779E997EA908 /* Bundle+.swift */; };
+		402593F965D15618F30C4C88DB8243C0 /* WZCAGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595379D1D7FAF67CA36F3DA7555376E /* WZCAGradientView.swift */; };
+		43909FA0DFA973C09FC96EEE7E9790EB /* WZFoundationExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF9F4F86CDBC2D25509BC0A6A99E92 /* WZFoundationExtension-dummy.m */; };
+		49F7B11A7325A3D31B6ADB822C564C9D /* Codable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C863070E4EF5EC47FE1CDB0DBD7ED /* Codable+.swift */; };
+		4E15365A3366700608AEFBC120523CA9 /* URL+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15049A1876469CC8440E5E58EE8BDD /* URL+.swift */; };
+		51874C488FCFE63146821738C5B0C6EE /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4434885F4AC1CB5BFAFA4F39625CFF /* UITableView+.swift */; };
+		566259CC654DBF97C61DB463A2887C47 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826A196A825C971A78FA2A463370758 /* String+.swift */; };
+		56BA22BE82ADE2F349DE1BBF44A3F31E /* WZFoundationExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D7996636254B94B6B61EDBD7BA06DA /* WZFoundationExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D9BC0D20FFEEC43595E2ABB7373814E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5F7D115C4585237111CB781A861E703B /* WZNamespaceWrappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887EEDEFEAD4F61A302ABEF015F308A /* WZNamespaceWrappable.swift */; };
+		602F51BCBFDBAB3E29B8E716D7361D02 /* WZNamespaceWrappable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EAB43FDEF819C152D0D889174C74F /* WZNamespaceWrappable-dummy.m */; };
+		6FD0AD3B6624415FB038FD805FFB27FD /* DispatchSourceTimer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B2B15087B657DCA3EAEF464318897 /* DispatchSourceTimer+.swift */; };
+		7390081DFDCC4A157DE0D69FA1D12DF8 /* AVCaptureDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF82863AC30A44B9ECE6142708D3B40 /* AVCaptureDevice+.swift */; };
+		85CD74FC8B6B6C4FECD8ABCA7CB9BF67 /* NSDecimalNumber+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C88200E3A641976E081733790A759 /* NSDecimalNumber+.swift */; };
+		89B7AD7AAB008DF5AB93B2E0A0498E79 /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718D1C84BF84F27A76C325EF3E17C207 /* UIDevice+.swift */; };
+		8A39D97533F42C7335B902008B469290 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF2C5E808DFC9AE7DC8AD821E38156 /* PaddedLabel.swift */; };
+		9D25390FF03C4F828B81C5B4B4302C8F /* UIAlertAction+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6DD21603150B1CEF87FB2D74CEAAAF /* UIAlertAction+Image.swift */; };
+		A3157588CD7EDE7B59B743875E46E8D8 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4425389ABB02EE24EF79A4CFDD7180CF /* UICollectionView+.swift */; };
+		A47B2CC975D05C1CF161429031B7861C /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E596545496DBB8861A0DC94892236 /* UIImage+.swift */; };
 		A4FF9999166618D2A213EEF7D7A31760 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A5D1C5BA9CE8F6805A1C5B96792787C4 /* Pods-WZFoundationExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C848E52F083A02DC0D08C01E987FBA /* Pods-WZFoundationExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6BC572D4EA40018C1C72388C6232C41 /* UIAlertAction+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F8FB72231C9F555F1645BCDC96497E /* UIAlertAction+Image.swift */; };
-		AF8A285CAEFDC9BB5EEF23F31463E287 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749E191113FAB253AFCA45F048797A42 /* UICollectionView+.swift */; };
-		BA12516C08D1CBCA1D99020EED10AF8E /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D003307BBAA87160F6A829039FEC1BF9 /* String+.swift */; };
-		BB3C0DBC8F4BA5A3BC8126165DB06485 /* WZNamespaceWrappable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EAB43FDEF819C152D0D889174C74F /* WZNamespaceWrappable-dummy.m */; };
-		C7132A9DFCBEC3FA3F5E01E3C3F40B43 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CAFF3ED01D7BC675E8D4E1ABF052F8 /* UIView+.swift */; };
-		C892324D66F92A9DA05F74E1AB77700D /* WZGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C631E2666699BF8A49E07EE45459DE4 /* WZGradientButton.swift */; };
-		CE35597E8930C8FCEB67056C76ACB76E /* Dictionary+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AA4D577D8552067C52EEA8DDB95B8 /* Dictionary+.swift */; };
-		D56E77428762AF58E510153637097914 /* DispatchSourceTimer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18100753730FACCD7276FBA3026D73EB /* DispatchSourceTimer+.swift */; };
-		D5F6C290A9FD42C7B5887EDC34957E63 /* UIScreen+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19370A216A86DBE5014EDBFC1EF2BAD3 /* UIScreen+.swift */; };
-		E27E6CA9E943037EEE43C20BB939B9B6 /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A066F38843778EDE368EA4E478C1AA /* UIDevice+.swift */; };
-		E9DB330B2AADDFB39DCED886633E047F /* NSMutableAttributedString+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807FAEF8C607BAF0DFCDD92072EE354B /* NSMutableAttributedString+.swift */; };
-		EF4A51DC3BA6C3AB1C9E82BE9033C544 /* WZNamespaceWrappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887EEDEFEAD4F61A302ABEF015F308A /* WZNamespaceWrappable.swift */; };
-		F0864430C752E9F2B9D099D108A354F6 /* AVCaptureDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71734938BA57FCCF2BFB9A2EAAE1E51 /* AVCaptureDevice+.swift */; };
-		F5A39BD0C283DFCA009FCEB99B7A54F7 /* Int+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF97E2B001A342D17462C00D57CBD5 /* Int+.swift */; };
-		F9F4D63CEE716A6D79C69FB109F7B2E2 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B45D69B2ABCD43EB369BF7631D13ACE /* UIButton+.swift */; };
+		B18EEC0F61493FDE2CB27F1DC1E6E044 /* Dictionary+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E8448200C8026FC70D1FCB3C2F0C6 /* Dictionary+.swift */; };
+		BCF442690CD5BEA541295F2D2BAC51A9 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8AAB17F93011C9CCC62CB1EE7086C /* UIView+.swift */; };
+		C86A9F87FF13039256239AFF64BD6BD9 /* UserDefaults+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B86362A4B8F52C1D9E93CF8391B76 /* UserDefaults+Codable.swift */; };
+		CD1076527929D2209E64F4F55E95D015 /* Bool+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1150CCBA860893FFFE01D255A7ED28B5 /* Bool+.swift */; };
+		CD140ADA17D06D04303020DA4D7DB396 /* UIAlertController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA81AB56A0AFD3376B058931A31CB2C /* UIAlertController+.swift */; };
+		D84F6A283325EF00664C5188D4C8305B /* WZNamespaceWrappable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EBC9ABAD94232B331E6B5CF77A7AAA /* WZNamespaceWrappable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAC547F018A8C88D68CEB7D9C5F0DFB5 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2161BA4EB2580CF511830974CA2314 /* UIColor+.swift */; };
+		DFA6AB5BA9EF60740BA8E951DDEB92A3 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAEB6EC33A15D101EA53E3B475535B6 /* UIStackView+.swift */; };
+		E3B97F9935086B7D3690D73187A66E30 /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2062A6E290C21FE672F440DF60D3A333 /* Array+.swift */; };
+		ECADFB1173F0593CE34587C746D0FFD3 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4CBF9E5FEADE40492FEEB52BD28193 /* Date+.swift */; };
+		F10C215A3AAC9BBDEA0753B234472C99 /* PHAsset+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B58CF312DB0422E9697EDB79D00E2F /* PHAsset+.swift */; };
+		F54BA9108D64259724DBC3E5BC192A76 /* NSMutableAttributedString+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D25E6DA9B1CEBAE7A69F593F7D3E348 /* NSMutableAttributedString+.swift */; };
+		F9DA0652FED3D23EB143EB5E9A9C8AF2 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877D3BEEF6A4B45FFD0196BD3AD0B04 /* UILabel+.swift */; };
+		FB9C90452D7DD81269D3D29CC0A606E1 /* Timer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9916351856F54E9AE3EB8BBA583EE2 /* Timer+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9C000E2703016963B686CF8AF9247454 /* PBXContainerItemProxy */ = {
+		06F7718CF37199A179CFA057106CE7BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1A655A57748C7717D20FB5E031C49A29;
 			remoteInfo = WZNamespaceWrappable;
 		};
-		CDB841922983E8CD13B4512F01A9D364 /* PBXContainerItemProxy */ = {
+		657556DA40878A598762832845D80056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A655A57748C7717D20FB5E031C49A29;
+			remoteInfo = WZNamespaceWrappable;
+		};
+		8D8C0CDBE4C5CC25E23CC3BAF2A5D4A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 89AA87A74913538FD0B089D1FCE62E6D;
 			remoteInfo = WZFoundationExtension;
 		};
-		FA4836B90E5BF742A9773EE33FAB2987 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1A655A57748C7717D20FB5E031C49A29;
-			remoteInfo = WZNamespaceWrappable;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0398862CB01367E549CC779E997EA908 /* Bundle+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+.swift"; path = "WZFoundationExtension/Classes/Foundation/Bundle+.swift"; sourceTree = "<group>"; };
-		042716B869D1B34C48FD116C91AE5A2A /* WZCAGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WZCAGradientView.swift; path = WZFoundationExtension/Classes/UI/WZCAGradientView.swift; sourceTree = "<group>"; };
-		057616215CB0D72676532F9D906B9C1E /* Double+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+.swift"; path = "WZFoundationExtension/Classes/Foundation/Double+.swift"; sourceTree = "<group>"; };
-		08E5A2FD0EDA34C63E9AD7B8F437F7D0 /* UIAlertController+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+.swift"; path = "WZFoundationExtension/Classes/UI/UIAlertController+.swift"; sourceTree = "<group>"; };
-		0943C68388ED8DEE6DCEA42DEA7C208B /* WZFoundationExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WZFoundationExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0C7A2DAD70022348AC0F8975E241D29E /* UIStackView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+.swift"; path = "WZFoundationExtension/Classes/UI/UIStackView+.swift"; sourceTree = "<group>"; };
+		063E0391D356CD3420B88501631DC2C8 /* WZFoundationExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZFoundationExtension.modulemap; sourceTree = "<group>"; };
+		073504E2DC0ECA5A955BC436E9731C22 /* UIButton+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+.swift"; path = "WZFoundationExtension/Classes/UI/UIButton+.swift"; sourceTree = "<group>"; };
+		09BEB79F9FD1459BF0C2FCA8FA896126 /* WZFoundationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZFoundationExtension.debug.xcconfig; sourceTree = "<group>"; };
 		0D4066527504166AB2536DD333EED111 /* Pods-WZFoundationExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZFoundationExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		15A4139359B50F6A66CA556DFCDCE815 /* UIColor+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+.swift"; path = "WZFoundationExtension/Classes/UI/UIColor+.swift"; sourceTree = "<group>"; };
-		18100753730FACCD7276FBA3026D73EB /* DispatchSourceTimer+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchSourceTimer+.swift"; path = "WZFoundationExtension/Classes/Foundation/DispatchSourceTimer+.swift"; sourceTree = "<group>"; };
-		19370A216A86DBE5014EDBFC1EF2BAD3 /* UIScreen+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+.swift"; path = "WZFoundationExtension/Classes/UI/UIScreen+.swift"; sourceTree = "<group>"; };
-		1BF727C47D917BF05F868E2D19AE8A42 /* URL+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+.swift"; path = "WZFoundationExtension/Classes/Foundation/URL+.swift"; sourceTree = "<group>"; };
-		1EAC6DBC961AE248A1EE1354DB5557B2 /* WZFoundationExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZFoundationExtension-umbrella.h"; sourceTree = "<group>"; };
+		1150CCBA860893FFFE01D255A7ED28B5 /* Bool+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bool+.swift"; path = "WZFoundationExtension/Classes/Foundation/Bool+.swift"; sourceTree = "<group>"; };
+		1260AAAF9C323B4F38179CA5393DB95A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1D25E6DA9B1CEBAE7A69F593F7D3E348 /* NSMutableAttributedString+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+.swift"; path = "WZFoundationExtension/Classes/Foundation/NSMutableAttributedString+.swift"; sourceTree = "<group>"; };
+		2062A6E290C21FE672F440DF60D3A333 /* Array+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+.swift"; path = "WZFoundationExtension/Classes/Foundation/Array+.swift"; sourceTree = "<group>"; };
 		20825AD4C4CCEF36239BE06466B1AE89 /* Pods-WZFoundationExtension_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WZFoundationExtension_Example"; path = Pods_WZFoundationExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22F8FB72231C9F555F1645BCDC96497E /* UIAlertAction+Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertAction+Image.swift"; path = "WZFoundationExtension/Classes/UI/UIAlertAction+Image.swift"; sourceTree = "<group>"; };
+		2166197F51AD8183D9ABBC356C6A08FF /* Bundle+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+.swift"; path = "WZFoundationExtension/Classes/Foundation/Bundle+.swift"; sourceTree = "<group>"; };
 		241E243CAE12CD9EA987CE75C93DAB1B /* Pods-WZFoundationExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZFoundationExtension_Example-Info.plist"; sourceTree = "<group>"; };
-		281C52752B5E13C8002D2B83 /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaddedLabel.swift; path = WZFoundationExtension/Classes/UI/PaddedLabel.swift; sourceTree = "<group>"; };
-		283DC8972B63516B003BDBE3 /* Codable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Codable+.swift"; path = "WZFoundationExtension/Classes/Foundation/Codable+.swift"; sourceTree = "<group>"; };
-		2EB74A6B50A33D523BAA7750DAC261A1 /* Array+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+.swift"; path = "WZFoundationExtension/Classes/Foundation/Array+.swift"; sourceTree = "<group>"; };
+		3A9916351856F54E9AE3EB8BBA583EE2 /* Timer+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Timer+.swift"; path = "WZFoundationExtension/Classes/Foundation/Timer+.swift"; sourceTree = "<group>"; };
 		3ABD8D593E4350232FC35878D561F7B2 /* Pods-WZFoundationExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZFoundationExtension_Example-dummy.m"; sourceTree = "<group>"; };
-		4DE08BB1BCCBF708C2594C5D34352EEA /* Timer+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Timer+.swift"; path = "WZFoundationExtension/Classes/Foundation/Timer+.swift"; sourceTree = "<group>"; };
-		547705716883072F3B4C152B8E24AA5D /* Bool+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bool+.swift"; path = "WZFoundationExtension/Classes/Foundation/Bool+.swift"; sourceTree = "<group>"; };
-		5536A666F02C190355C6390521333181 /* UIImage+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+.swift"; path = "WZFoundationExtension/Classes/UI/UIImage+.swift"; sourceTree = "<group>"; };
-		5A91F55EBCBA7401E72359CEB8114F12 /* WZFoundationExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZFoundationExtension-dummy.m"; sourceTree = "<group>"; };
-		5C631E2666699BF8A49E07EE45459DE4 /* WZGradientButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WZGradientButton.swift; path = WZFoundationExtension/Classes/UI/WZGradientButton.swift; sourceTree = "<group>"; };
-		71B2F8FAE0B812A27A111EF9A078A090 /* NSDecimalNumber+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDecimalNumber+.swift"; path = "WZFoundationExtension/Classes/Foundation/NSDecimalNumber+.swift"; sourceTree = "<group>"; };
+		41B58CF312DB0422E9697EDB79D00E2F /* PHAsset+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PHAsset+.swift"; path = "WZFoundationExtension/Classes/Foundation/PHAsset+.swift"; sourceTree = "<group>"; };
+		4425389ABB02EE24EF79A4CFDD7180CF /* UICollectionView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+.swift"; path = "WZFoundationExtension/Classes/UI/UICollectionView+.swift"; sourceTree = "<group>"; };
+		475C863070E4EF5EC47FE1CDB0DBD7ED /* Codable+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Codable+.swift"; path = "WZFoundationExtension/Classes/Foundation/Codable+.swift"; sourceTree = "<group>"; };
+		4E5C88200E3A641976E081733790A759 /* NSDecimalNumber+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDecimalNumber+.swift"; path = "WZFoundationExtension/Classes/Foundation/NSDecimalNumber+.swift"; sourceTree = "<group>"; };
+		4FD8AAB17F93011C9CCC62CB1EE7086C /* UIView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+.swift"; path = "WZFoundationExtension/Classes/UI/UIView+.swift"; sourceTree = "<group>"; };
+		5227023E2415AD2C8EFA5EEACF8DDBD5 /* WZFoundationExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZFoundationExtension-prefix.pch"; sourceTree = "<group>"; };
+		52D7996636254B94B6B61EDBD7BA06DA /* WZFoundationExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZFoundationExtension-umbrella.h"; sourceTree = "<group>"; };
+		5411CA9B094E5CFEA1CF9786C8F61688 /* WZFoundationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZFoundationExtension.release.xcconfig; sourceTree = "<group>"; };
+		57A68C684FC76AA3C45295D62D76ABB4 /* Double+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+.swift"; path = "WZFoundationExtension/Classes/Foundation/Double+.swift"; sourceTree = "<group>"; };
+		5CAEB6EC33A15D101EA53E3B475535B6 /* UIStackView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+.swift"; path = "WZFoundationExtension/Classes/UI/UIStackView+.swift"; sourceTree = "<group>"; };
+		6877D3BEEF6A4B45FFD0196BD3AD0B04 /* UILabel+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+.swift"; path = "WZFoundationExtension/Classes/UI/UILabel+.swift"; sourceTree = "<group>"; };
+		6E4CBF9E5FEADE40492FEEB52BD28193 /* Date+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+.swift"; path = "WZFoundationExtension/Classes/Foundation/Date+.swift"; sourceTree = "<group>"; };
+		6F50448F6D6D3186A2360A5E19F953A3 /* Int+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+.swift"; path = "WZFoundationExtension/Classes/Foundation/Int+.swift"; sourceTree = "<group>"; };
+		718D1C84BF84F27A76C325EF3E17C207 /* UIDevice+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+.swift"; path = "WZFoundationExtension/Classes/UI/UIDevice+.swift"; sourceTree = "<group>"; };
 		71BC5CA505FCB1C7360187CBA325F282 /* WZFoundationExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZFoundationExtension; path = WZFoundationExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		749E191113FAB253AFCA45F048797A42 /* UICollectionView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+.swift"; path = "WZFoundationExtension/Classes/UI/UICollectionView+.swift"; sourceTree = "<group>"; };
-		7689C4DA6F55B3AF09EDEFFD396716A0 /* WZFoundationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZFoundationExtension.debug.xcconfig; sourceTree = "<group>"; };
-		7713AFE6C1E594B6278F17A78CA1B769 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		78B5E101506C4CBA027DE0E9FEE3FCC5 /* WZFoundationExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZFoundationExtension-prefix.pch"; sourceTree = "<group>"; };
-		7B45D69B2ABCD43EB369BF7631D13ACE /* UIButton+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+.swift"; path = "WZFoundationExtension/Classes/UI/UIButton+.swift"; sourceTree = "<group>"; };
-		807FAEF8C607BAF0DFCDD92072EE354B /* NSMutableAttributedString+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+.swift"; path = "WZFoundationExtension/Classes/Foundation/NSMutableAttributedString+.swift"; sourceTree = "<group>"; };
-		8814854DEB8D442ACEA43A008FDB56D9 /* UserDefaults+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserDefaults+Codable.swift"; path = "WZFoundationExtension/Classes/Foundation/UserDefaults+Codable.swift"; sourceTree = "<group>"; };
-		8F340AB59F4C143E04F9AD17D3BF8B69 /* UITableView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+.swift"; path = "WZFoundationExtension/Classes/UI/UITableView+.swift"; sourceTree = "<group>"; };
-		913A5AB9B1EFD97301BD75A2FE712290 /* Date+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+.swift"; path = "WZFoundationExtension/Classes/Foundation/Date+.swift"; sourceTree = "<group>"; };
+		8C2161BA4EB2580CF511830974CA2314 /* UIColor+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+.swift"; path = "WZFoundationExtension/Classes/UI/UIColor+.swift"; sourceTree = "<group>"; };
 		92C2BF91D4C3C9A6D47F342E62F7486D /* WZNamespaceWrappable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZNamespaceWrappable-prefix.pch"; sourceTree = "<group>"; };
 		946EAB43FDEF819C152D0D889174C74F /* WZNamespaceWrappable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZNamespaceWrappable-dummy.m"; sourceTree = "<group>"; };
+		94FF2C5E808DFC9AE7DC8AD821E38156 /* PaddedLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaddedLabel.swift; path = WZFoundationExtension/Classes/UI/PaddedLabel.swift; sourceTree = "<group>"; };
 		98EBC9ABAD94232B331E6B5CF77A7AAA /* WZNamespaceWrappable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZNamespaceWrappable-umbrella.h"; sourceTree = "<group>"; };
-		9AEFB496F6E86F7E08FF9C09CA2828E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CA81AB56A0AFD3376B058931A31CB2C /* UIAlertController+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+.swift"; path = "WZFoundationExtension/Classes/UI/UIAlertController+.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3E596545496DBB8861A0DC94892236 /* UIImage+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+.swift"; path = "WZFoundationExtension/Classes/UI/UIImage+.swift"; sourceTree = "<group>"; };
+		9FEF9F4F86CDBC2D25509BC0A6A99E92 /* WZFoundationExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZFoundationExtension-dummy.m"; sourceTree = "<group>"; };
 		A0115B211C04E27173CCEDBD2B3CC388 /* Pods-WZFoundationExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZFoundationExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A1A45AE5A8DD0DCA9BC516AD3211A092 /* WZFoundationExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZFoundationExtension-Info.plist"; sourceTree = "<group>"; };
 		A2C848E52F083A02DC0D08C01E987FBA /* Pods-WZFoundationExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZFoundationExtension_Example-umbrella.h"; sourceTree = "<group>"; };
 		A887EEDEFEAD4F61A302ABEF015F308A /* WZNamespaceWrappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WZNamespaceWrappable.swift; path = WZNamespaceWrappable/Classes/WZNamespaceWrappable.swift; sourceTree = "<group>"; };
+		AD15049A1876469CC8440E5E58EE8BDD /* URL+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+.swift"; path = "WZFoundationExtension/Classes/Foundation/URL+.swift"; sourceTree = "<group>"; };
+		AD4434885F4AC1CB5BFAFA4F39625CFF /* UITableView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+.swift"; path = "WZFoundationExtension/Classes/UI/UITableView+.swift"; sourceTree = "<group>"; };
+		AD4ECACD27FB1E7F3C20AE714378888A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AEA3CFC5919A522FD5BB1A6DF29204FD /* UIScreen+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+.swift"; path = "WZFoundationExtension/Classes/UI/UIScreen+.swift"; sourceTree = "<group>"; };
 		AF02738AB6311640B4A414E0FDB3CB0D /* WZNamespaceWrappable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZNamespaceWrappable.release.xcconfig; sourceTree = "<group>"; };
-		B2CAFF3ED01D7BC675E8D4E1ABF052F8 /* UIView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+.swift"; path = "WZFoundationExtension/Classes/UI/UIView+.swift"; sourceTree = "<group>"; };
 		B47CE000F804A798B071A469E0B899C0 /* WZNamespaceWrappable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZNamespaceWrappable.modulemap; sourceTree = "<group>"; };
-		B55AABE060205D59F9A5BCABAF89D0A0 /* UIControl+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+.swift"; path = "WZFoundationExtension/Classes/UI/UIControl+.swift"; sourceTree = "<group>"; };
+		B8A9FE1105CA59463E553E44F0A218A7 /* WZGradientButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WZGradientButton.swift; path = WZFoundationExtension/Classes/UI/WZGradientButton.swift; sourceTree = "<group>"; };
 		BA326833A5273F0437B3565BE44F9FA8 /* Pods-WZFoundationExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZFoundationExtension_Example.modulemap"; sourceTree = "<group>"; };
-		BB72E5133E802535C5018DC942B39D27 /* WZFoundationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZFoundationExtension.release.xcconfig; sourceTree = "<group>"; };
-		C36AA4D577D8552067C52EEA8DDB95B8 /* Dictionary+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+.swift"; path = "WZFoundationExtension/Classes/Foundation/Dictionary+.swift"; sourceTree = "<group>"; };
-		CB2B6A58CABB8AA3939654F7F39A4A5A /* UILabel+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+.swift"; path = "WZFoundationExtension/Classes/UI/UILabel+.swift"; sourceTree = "<group>"; };
-		D003307BBAA87160F6A829039FEC1BF9 /* String+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+.swift"; path = "WZFoundationExtension/Classes/Foundation/String+.swift"; sourceTree = "<group>"; };
+		CC1EAB7D684FD5C013E61A4FE5D77752 /* UIControl+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+.swift"; path = "WZFoundationExtension/Classes/UI/UIControl+.swift"; sourceTree = "<group>"; };
+		CFF82863AC30A44B9ECE6142708D3B40 /* AVCaptureDevice+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVCaptureDevice+.swift"; path = "WZFoundationExtension/Classes/Foundation/AVCaptureDevice+.swift"; sourceTree = "<group>"; };
 		D01ABBD75B34516FBEBD4EA35A43257B /* WZNamespaceWrappable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZNamespaceWrappable; path = WZNamespaceWrappable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2DF97E2B001A342D17462C00D57CBD5 /* Int+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+.swift"; path = "WZFoundationExtension/Classes/Foundation/Int+.swift"; sourceTree = "<group>"; };
+		D34B86362A4B8F52C1D9E93CF8391B76 /* UserDefaults+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserDefaults+Codable.swift"; path = "WZFoundationExtension/Classes/Foundation/UserDefaults+Codable.swift"; sourceTree = "<group>"; };
 		D45CEE4B2D132B2AE546A13131796C3B /* WZNamespaceWrappable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZNamespaceWrappable.debug.xcconfig; sourceTree = "<group>"; };
+		D57E8448200C8026FC70D1FCB3C2F0C6 /* Dictionary+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+.swift"; path = "WZFoundationExtension/Classes/Foundation/Dictionary+.swift"; sourceTree = "<group>"; };
+		D826A196A825C971A78FA2A463370758 /* String+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+.swift"; path = "WZFoundationExtension/Classes/Foundation/String+.swift"; sourceTree = "<group>"; };
 		E4B896D2D95C90E9CAB7F11C601A61FD /* WZNamespaceWrappable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZNamespaceWrappable-Info.plist"; sourceTree = "<group>"; };
-		EC2C386F18F39985455DA742463212F5 /* WZFoundationExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZFoundationExtension.modulemap; sourceTree = "<group>"; };
 		ECF8D68FF64E906328FF4D5E76750DD8 /* Pods-WZFoundationExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZFoundationExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F3A066F38843778EDE368EA4E478C1AA /* UIDevice+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+.swift"; path = "WZFoundationExtension/Classes/UI/UIDevice+.swift"; sourceTree = "<group>"; };
-		F71734938BA57FCCF2BFB9A2EAAE1E51 /* AVCaptureDevice+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVCaptureDevice+.swift"; path = "WZFoundationExtension/Classes/Foundation/AVCaptureDevice+.swift"; sourceTree = "<group>"; };
-		F75F5EE0925F205146AE80F6CBBAD4FF /* PHAsset+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PHAsset+.swift"; path = "WZFoundationExtension/Classes/Foundation/PHAsset+.swift"; sourceTree = "<group>"; };
+		F3929345B93246B800EDDA5FB15E8AB5 /* WZFoundationExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WZFoundationExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F50B2B15087B657DCA3EAEF464318897 /* DispatchSourceTimer+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchSourceTimer+.swift"; path = "WZFoundationExtension/Classes/Foundation/DispatchSourceTimer+.swift"; sourceTree = "<group>"; };
+		F595379D1D7FAF67CA36F3DA7555376E /* WZCAGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WZCAGradientView.swift; path = WZFoundationExtension/Classes/UI/WZCAGradientView.swift; sourceTree = "<group>"; };
+		F99C5AFDC3A6307A8306D73C65A2FD8E /* WZFoundationExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZFoundationExtension-Info.plist"; sourceTree = "<group>"; };
+		FE6DD21603150B1CEF87FB2D74CEAAAF /* UIAlertAction+Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertAction+Image.swift"; path = "WZFoundationExtension/Classes/UI/UIAlertAction+Image.swift"; sourceTree = "<group>"; };
 		FFFC70EC412A649189EE8709E108D8DF /* Pods-WZFoundationExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZFoundationExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A4CE847E02C40437F869189EEA7B09E /* Frameworks */ = {
+		257536D91B8B46BFD9AD35FFA8A369EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				381CE671A90E7C02852F9B5B13998793 /* Foundation.framework in Frameworks */,
+				3A63971D3567EA9BCEB3E2D466DA8195 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF7AD233EC272D21247326601E443EE /* Frameworks */ = {
+		90218FCCC6D76E90E7DC9D2162D44BC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8327CA7EF9FDB2A5AA20ED30C7492C /* Foundation.framework in Frameworks */,
+				5D9BC0D20FFEEC43595E2ABB7373814E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,50 +171,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01ED766A4743ACF9ED140666D7064253 /* WZFoundationExtension */ = {
+		52BD8A1C14D638581223325B942206D6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				095E93867B8CDF6D4DDBD3825C6521EC /* Foundation */,
-				5208F8684D5D11F42CA076A78F506CBC /* Pod */,
-				61ECFBB2A66742AB103650B948096EAC /* Support Files */,
-				A745363F9DDE8A1D45F5DFAFC18B9533 /* UI */,
-			);
-			name = WZFoundationExtension;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		095E93867B8CDF6D4DDBD3825C6521EC /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				2EB74A6B50A33D523BAA7750DAC261A1 /* Array+.swift */,
-				F71734938BA57FCCF2BFB9A2EAAE1E51 /* AVCaptureDevice+.swift */,
-				547705716883072F3B4C152B8E24AA5D /* Bool+.swift */,
-				0398862CB01367E549CC779E997EA908 /* Bundle+.swift */,
-				913A5AB9B1EFD97301BD75A2FE712290 /* Date+.swift */,
-				C36AA4D577D8552067C52EEA8DDB95B8 /* Dictionary+.swift */,
-				18100753730FACCD7276FBA3026D73EB /* DispatchSourceTimer+.swift */,
-				057616215CB0D72676532F9D906B9C1E /* Double+.swift */,
-				D2DF97E2B001A342D17462C00D57CBD5 /* Int+.swift */,
-				71B2F8FAE0B812A27A111EF9A078A090 /* NSDecimalNumber+.swift */,
-				807FAEF8C607BAF0DFCDD92072EE354B /* NSMutableAttributedString+.swift */,
-				F75F5EE0925F205146AE80F6CBBAD4FF /* PHAsset+.swift */,
-				D003307BBAA87160F6A829039FEC1BF9 /* String+.swift */,
-				4DE08BB1BCCBF708C2594C5D34352EEA /* Timer+.swift */,
-				1BF727C47D917BF05F868E2D19AE8A42 /* URL+.swift */,
-				8814854DEB8D442ACEA43A008FDB56D9 /* UserDefaults+Codable.swift */,
-				283DC8972B63516B003BDBE3 /* Codable+.swift */,
-			);
-			name = Foundation;
-			sourceTree = "<group>";
-		};
-		5208F8684D5D11F42CA076A78F506CBC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7713AFE6C1E594B6278F17A78CA1B769 /* LICENSE */,
-				9AEFB496F6E86F7E08FF9C09CA2828E0 /* README.md */,
-				0943C68388ED8DEE6DCEA42DEA7C208B /* WZFoundationExtension.podspec */,
+				AD4ECACD27FB1E7F3C20AE714378888A /* LICENSE */,
+				1260AAAF9C323B4F38179CA5393DB95A /* README.md */,
+				F3929345B93246B800EDDA5FB15E8AB5 /* WZFoundationExtension.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		54AD4873A3C4BDED0C81E901F8A254CE /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				2062A6E290C21FE672F440DF60D3A333 /* Array+.swift */,
+				CFF82863AC30A44B9ECE6142708D3B40 /* AVCaptureDevice+.swift */,
+				1150CCBA860893FFFE01D255A7ED28B5 /* Bool+.swift */,
+				2166197F51AD8183D9ABBC356C6A08FF /* Bundle+.swift */,
+				475C863070E4EF5EC47FE1CDB0DBD7ED /* Codable+.swift */,
+				6E4CBF9E5FEADE40492FEEB52BD28193 /* Date+.swift */,
+				D57E8448200C8026FC70D1FCB3C2F0C6 /* Dictionary+.swift */,
+				F50B2B15087B657DCA3EAEF464318897 /* DispatchSourceTimer+.swift */,
+				57A68C684FC76AA3C45295D62D76ABB4 /* Double+.swift */,
+				6F50448F6D6D3186A2360A5E19F953A3 /* Int+.swift */,
+				4E5C88200E3A641976E081733790A759 /* NSDecimalNumber+.swift */,
+				1D25E6DA9B1CEBAE7A69F593F7D3E348 /* NSMutableAttributedString+.swift */,
+				41B58CF312DB0422E9697EDB79D00E2F /* PHAsset+.swift */,
+				D826A196A825C971A78FA2A463370758 /* String+.swift */,
+				3A9916351856F54E9AE3EB8BBA583EE2 /* Timer+.swift */,
+				AD15049A1876469CC8440E5E58EE8BDD /* URL+.swift */,
+				D34B86362A4B8F52C1D9E93CF8391B76 /* UserDefaults+Codable.swift */,
+			);
+			name = Foundation;
 			sourceTree = "<group>";
 		};
 		56CA4883B02979EE3E3ACAC39AB5BA56 /* Targets Support Files */ = {
@@ -233,27 +221,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		61ECFBB2A66742AB103650B948096EAC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EC2C386F18F39985455DA742463212F5 /* WZFoundationExtension.modulemap */,
-				5A91F55EBCBA7401E72359CEB8114F12 /* WZFoundationExtension-dummy.m */,
-				A1A45AE5A8DD0DCA9BC516AD3211A092 /* WZFoundationExtension-Info.plist */,
-				78B5E101506C4CBA027DE0E9FEE3FCC5 /* WZFoundationExtension-prefix.pch */,
-				1EAC6DBC961AE248A1EE1354DB5557B2 /* WZFoundationExtension-umbrella.h */,
-				7689C4DA6F55B3AF09EDEFFD396716A0 /* WZFoundationExtension.debug.xcconfig */,
-				BB72E5133E802535C5018DC942B39D27 /* WZFoundationExtension.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WZFoundationExtension";
-			sourceTree = "<group>";
-		};
 		6DA59529EEAB68E2BBAD97EC5C6530D7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				01ED766A4743ACF9ED140666D7064253 /* WZFoundationExtension */,
+				7A41992027FB0BA937CBB3872F0C096A /* WZFoundationExtension */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7A41992027FB0BA937CBB3872F0C096A /* WZFoundationExtension */ = {
+			isa = PBXGroup;
+			children = (
+				54AD4873A3C4BDED0C81E901F8A254CE /* Foundation */,
+				52BD8A1C14D638581223325B942206D6 /* Pod */,
+				F5878B6315C3CBDE951F3191345F3854 /* Support Files */,
+				D5F577AA24A94FB38F449FF22EDB7375 /* UI */,
+			);
+			name = WZFoundationExtension;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		901606A95FAC47B08938F674994ACC0E /* Products */ = {
@@ -279,29 +264,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/WZNamespaceWrappable";
-			sourceTree = "<group>";
-		};
-		A745363F9DDE8A1D45F5DFAFC18B9533 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				22F8FB72231C9F555F1645BCDC96497E /* UIAlertAction+Image.swift */,
-				08E5A2FD0EDA34C63E9AD7B8F437F7D0 /* UIAlertController+.swift */,
-				7B45D69B2ABCD43EB369BF7631D13ACE /* UIButton+.swift */,
-				749E191113FAB253AFCA45F048797A42 /* UICollectionView+.swift */,
-				15A4139359B50F6A66CA556DFCDCE815 /* UIColor+.swift */,
-				B55AABE060205D59F9A5BCABAF89D0A0 /* UIControl+.swift */,
-				F3A066F38843778EDE368EA4E478C1AA /* UIDevice+.swift */,
-				5536A666F02C190355C6390521333181 /* UIImage+.swift */,
-				CB2B6A58CABB8AA3939654F7F39A4A5A /* UILabel+.swift */,
-				19370A216A86DBE5014EDBFC1EF2BAD3 /* UIScreen+.swift */,
-				0C7A2DAD70022348AC0F8975E241D29E /* UIStackView+.swift */,
-				8F340AB59F4C143E04F9AD17D3BF8B69 /* UITableView+.swift */,
-				B2CAFF3ED01D7BC675E8D4E1ABF052F8 /* UIView+.swift */,
-				042716B869D1B34C48FD116C91AE5A2A /* WZCAGradientView.swift */,
-				5C631E2666699BF8A49E07EE45459DE4 /* WZGradientButton.swift */,
-				281C52752B5E13C8002D2B83 /* PaddedLabel.swift */,
-			);
-			name = UI;
 			sourceTree = "<group>";
 		};
 		BF0DFB58D409240F04D424B0E75386E1 /* Pods-WZFoundationExtension_Example */ = {
@@ -346,7 +308,46 @@
 				A887EEDEFEAD4F61A302ABEF015F308A /* WZNamespaceWrappable.swift */,
 				9BDC15F87DB635C921CF1E9642996EBE /* Support Files */,
 			);
+			name = WZNamespaceWrappable;
 			path = WZNamespaceWrappable;
+			sourceTree = "<group>";
+		};
+		D5F577AA24A94FB38F449FF22EDB7375 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				94FF2C5E808DFC9AE7DC8AD821E38156 /* PaddedLabel.swift */,
+				FE6DD21603150B1CEF87FB2D74CEAAAF /* UIAlertAction+Image.swift */,
+				9CA81AB56A0AFD3376B058931A31CB2C /* UIAlertController+.swift */,
+				073504E2DC0ECA5A955BC436E9731C22 /* UIButton+.swift */,
+				4425389ABB02EE24EF79A4CFDD7180CF /* UICollectionView+.swift */,
+				8C2161BA4EB2580CF511830974CA2314 /* UIColor+.swift */,
+				CC1EAB7D684FD5C013E61A4FE5D77752 /* UIControl+.swift */,
+				718D1C84BF84F27A76C325EF3E17C207 /* UIDevice+.swift */,
+				9E3E596545496DBB8861A0DC94892236 /* UIImage+.swift */,
+				6877D3BEEF6A4B45FFD0196BD3AD0B04 /* UILabel+.swift */,
+				AEA3CFC5919A522FD5BB1A6DF29204FD /* UIScreen+.swift */,
+				5CAEB6EC33A15D101EA53E3B475535B6 /* UIStackView+.swift */,
+				AD4434885F4AC1CB5BFAFA4F39625CFF /* UITableView+.swift */,
+				4FD8AAB17F93011C9CCC62CB1EE7086C /* UIView+.swift */,
+				F595379D1D7FAF67CA36F3DA7555376E /* WZCAGradientView.swift */,
+				B8A9FE1105CA59463E553E44F0A218A7 /* WZGradientButton.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		F5878B6315C3CBDE951F3191345F3854 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				063E0391D356CD3420B88501631DC2C8 /* WZFoundationExtension.modulemap */,
+				9FEF9F4F86CDBC2D25509BC0A6A99E92 /* WZFoundationExtension-dummy.m */,
+				F99C5AFDC3A6307A8306D73C65A2FD8E /* WZFoundationExtension-Info.plist */,
+				5227023E2415AD2C8EFA5EEACF8DDBD5 /* WZFoundationExtension-prefix.pch */,
+				52D7996636254B94B6B61EDBD7BA06DA /* WZFoundationExtension-umbrella.h */,
+				09BEB79F9FD1459BF0C2FCA8FA896126 /* WZFoundationExtension.debug.xcconfig */,
+				5411CA9B094E5CFEA1CF9786C8F61688 /* WZFoundationExtension.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WZFoundationExtension";
 			sourceTree = "<group>";
 		};
 		F73C95B980353FE74C97930871D7E0B5 /* Pods */ = {
@@ -368,19 +369,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		969586BEA88FB94FFC3DDFE7DC3BF7B5 /* Headers */ = {
+		BB2B0328151BDFD81CF6DB8149282836 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F84DB14639F762310DDA5B1F8798B13 /* WZNamespaceWrappable-umbrella.h in Headers */,
+				56BA22BE82ADE2F349DE1BBF44A3F31E /* WZFoundationExtension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B268E914CB8B550DAB179AAD32B77029 /* Headers */ = {
+		D30442A763D2A55ABA689A60A4BB11F9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77322C45A2BF666CF221BDB1334D0072 /* WZFoundationExtension-umbrella.h in Headers */,
+				D84F6A283325EF00664C5188D4C8305B /* WZNamespaceWrappable-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,12 +390,12 @@
 /* Begin PBXNativeTarget section */
 		1A655A57748C7717D20FB5E031C49A29 /* WZNamespaceWrappable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41EF5B59172394C30273CDDEA5BB0126 /* Build configuration list for PBXNativeTarget "WZNamespaceWrappable" */;
+			buildConfigurationList = D18737F9591406FD2116C8D82EFF2793 /* Build configuration list for PBXNativeTarget "WZNamespaceWrappable" */;
 			buildPhases = (
-				969586BEA88FB94FFC3DDFE7DC3BF7B5 /* Headers */,
-				0F38DA1846841790630ACE1F1D058980 /* Sources */,
-				ABF7AD233EC272D21247326601E443EE /* Frameworks */,
-				7032228E8AC25BA56BF250525C6B8F5C /* Resources */,
+				D30442A763D2A55ABA689A60A4BB11F9 /* Headers */,
+				2037FC25F9EB79770B453E45C6C54A6A /* Sources */,
+				90218FCCC6D76E90E7DC9D2162D44BC1 /* Frameworks */,
+				07FEA565F30F5A5E62889F3E3EB7AC86 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -407,17 +408,17 @@
 		};
 		89AA87A74913538FD0B089D1FCE62E6D /* WZFoundationExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0FFB94D0E022DE5D1D46A23E155DEA4 /* Build configuration list for PBXNativeTarget "WZFoundationExtension" */;
+			buildConfigurationList = A9DEB97376519590C87C5BBCD6C0BC56 /* Build configuration list for PBXNativeTarget "WZFoundationExtension" */;
 			buildPhases = (
-				B268E914CB8B550DAB179AAD32B77029 /* Headers */,
-				8DC573B63DAD518135C0A8D3F8A99766 /* Sources */,
-				0A4CE847E02C40437F869189EEA7B09E /* Frameworks */,
-				18D343C85E9168CF5E0CB0691E2BCCA4 /* Resources */,
+				BB2B0328151BDFD81CF6DB8149282836 /* Headers */,
+				F381315759D6192D3E5368A1A380A2E7 /* Sources */,
+				257536D91B8B46BFD9AD35FFA8A369EB /* Frameworks */,
+				93BCD768A9C1E6DCC6AD72D4C606F2D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4EB38D650B2D74C43A939FEC3B5194A4 /* PBXTargetDependency */,
+				F7F4F878543C1885B7BED13DDA5C4FB5 /* PBXTargetDependency */,
 			);
 			name = WZFoundationExtension;
 			productName = WZFoundationExtension;
@@ -436,8 +437,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				979BEC47C03C6FA49CDDA1D0BCCA1A27 /* PBXTargetDependency */,
-				A199724A6BF5874EE0A6F780CA521987 /* PBXTargetDependency */,
+				90F35F957C62D57B634C30D9CE2E6286 /* PBXTargetDependency */,
+				1F68DFAA176ABF5CF3912439202E8DB4 /* PBXTargetDependency */,
 			);
 			name = "Pods-WZFoundationExtension_Example";
 			productName = Pods_WZFoundationExtension_Example;
@@ -474,7 +475,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18D343C85E9168CF5E0CB0691E2BCCA4 /* Resources */ = {
+		07FEA565F30F5A5E62889F3E3EB7AC86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -488,7 +489,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7032228E8AC25BA56BF250525C6B8F5C /* Resources */ = {
+		93BCD768A9C1E6DCC6AD72D4C606F2D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -498,53 +499,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F38DA1846841790630ACE1F1D058980 /* Sources */ = {
+		2037FC25F9EB79770B453E45C6C54A6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4A51DC3BA6C3AB1C9E82BE9033C544 /* WZNamespaceWrappable.swift in Sources */,
-				BB3C0DBC8F4BA5A3BC8126165DB06485 /* WZNamespaceWrappable-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8DC573B63DAD518135C0A8D3F8A99766 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6C813F3965C91126F978D576730CD05D /* Array+.swift in Sources */,
-				F0864430C752E9F2B9D099D108A354F6 /* AVCaptureDevice+.swift in Sources */,
-				4071B60A7BE216C7E645A4D917B3B630 /* Bool+.swift in Sources */,
-				A1C7F0CAD6B57D8EAA0126E1049197DB /* Bundle+.swift in Sources */,
-				27D761E6F490352662EBA7EB47933F17 /* Date+.swift in Sources */,
-				CE35597E8930C8FCEB67056C76ACB76E /* Dictionary+.swift in Sources */,
-				D56E77428762AF58E510153637097914 /* DispatchSourceTimer+.swift in Sources */,
-				449150D37FDC6E8EAC86E73E1430888C /* Double+.swift in Sources */,
-				F5A39BD0C283DFCA009FCEB99B7A54F7 /* Int+.swift in Sources */,
-				281C52762B5E13C8002D2B83 /* PaddedLabel.swift in Sources */,
-				1500615953628300CCE4C91ED5A99472 /* NSDecimalNumber+.swift in Sources */,
-				E9DB330B2AADDFB39DCED886633E047F /* NSMutableAttributedString+.swift in Sources */,
-				23EDA105C677CDAA69A0C6753CE0A8AE /* PHAsset+.swift in Sources */,
-				BA12516C08D1CBCA1D99020EED10AF8E /* String+.swift in Sources */,
-				283DC8982B63516B003BDBE3 /* Codable+.swift in Sources */,
-				698ACE8D24C10C4DC530DDB8EAE71B04 /* Timer+.swift in Sources */,
-				A6BC572D4EA40018C1C72388C6232C41 /* UIAlertAction+Image.swift in Sources */,
-				6991E6FB8BDD82C2C2FAA98A9A46640A /* UIAlertController+.swift in Sources */,
-				F9F4D63CEE716A6D79C69FB109F7B2E2 /* UIButton+.swift in Sources */,
-				AF8A285CAEFDC9BB5EEF23F31463E287 /* UICollectionView+.swift in Sources */,
-				1F3D1C35DF8614EF211FBFC73C4131D9 /* UIColor+.swift in Sources */,
-				56486CB5D2E99F4ED3FD28031505A24F /* UIControl+.swift in Sources */,
-				E27E6CA9E943037EEE43C20BB939B9B6 /* UIDevice+.swift in Sources */,
-				8446130383DECC65485C8C6D39637CDC /* UIImage+.swift in Sources */,
-				37BA71D81C8BAD7648589536E9E1381D /* UILabel+.swift in Sources */,
-				D5F6C290A9FD42C7B5887EDC34957E63 /* UIScreen+.swift in Sources */,
-				3DC44B7B24401CD5CDFC1B78F5EE9A33 /* UIStackView+.swift in Sources */,
-				45C30E03F0F68EC5EDE9E2CB7D7CB1A4 /* UITableView+.swift in Sources */,
-				C7132A9DFCBEC3FA3F5E01E3C3F40B43 /* UIView+.swift in Sources */,
-				6F3B9DDC09748CD74BFEE9A1E219FE2C /* URL+.swift in Sources */,
-				5BE27D3EAD5023EE890DDED9B175C69C /* UserDefaults+Codable.swift in Sources */,
-				713789734DFF04D6991D120728C303A8 /* WZCAGradientView.swift in Sources */,
-				65474E07DE80BB69397D9505C8007E23 /* WZFoundationExtension-dummy.m in Sources */,
-				C892324D66F92A9DA05F74E1AB77700D /* WZGradientButton.swift in Sources */,
+				5F7D115C4585237111CB781A861E703B /* WZNamespaceWrappable.swift in Sources */,
+				602F51BCBFDBAB3E29B8E716D7361D02 /* WZNamespaceWrappable-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,33 +516,110 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F381315759D6192D3E5368A1A380A2E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B97F9935086B7D3690D73187A66E30 /* Array+.swift in Sources */,
+				7390081DFDCC4A157DE0D69FA1D12DF8 /* AVCaptureDevice+.swift in Sources */,
+				CD1076527929D2209E64F4F55E95D015 /* Bool+.swift in Sources */,
+				37D2E81D9D4D8A6C2DD1584016F8AF78 /* Bundle+.swift in Sources */,
+				49F7B11A7325A3D31B6ADB822C564C9D /* Codable+.swift in Sources */,
+				ECADFB1173F0593CE34587C746D0FFD3 /* Date+.swift in Sources */,
+				B18EEC0F61493FDE2CB27F1DC1E6E044 /* Dictionary+.swift in Sources */,
+				6FD0AD3B6624415FB038FD805FFB27FD /* DispatchSourceTimer+.swift in Sources */,
+				06E75F0F6709D4BD6FB7930E4FC5A15F /* Double+.swift in Sources */,
+				0FC911B76F7BD36218EB6E0876B76C7B /* Int+.swift in Sources */,
+				85CD74FC8B6B6C4FECD8ABCA7CB9BF67 /* NSDecimalNumber+.swift in Sources */,
+				F54BA9108D64259724DBC3E5BC192A76 /* NSMutableAttributedString+.swift in Sources */,
+				8A39D97533F42C7335B902008B469290 /* PaddedLabel.swift in Sources */,
+				F10C215A3AAC9BBDEA0753B234472C99 /* PHAsset+.swift in Sources */,
+				566259CC654DBF97C61DB463A2887C47 /* String+.swift in Sources */,
+				FB9C90452D7DD81269D3D29CC0A606E1 /* Timer+.swift in Sources */,
+				9D25390FF03C4F828B81C5B4B4302C8F /* UIAlertAction+Image.swift in Sources */,
+				CD140ADA17D06D04303020DA4D7DB396 /* UIAlertController+.swift in Sources */,
+				38A5D611EC008702E771D479C07EA498 /* UIButton+.swift in Sources */,
+				A3157588CD7EDE7B59B743875E46E8D8 /* UICollectionView+.swift in Sources */,
+				DAC547F018A8C88D68CEB7D9C5F0DFB5 /* UIColor+.swift in Sources */,
+				324608ECD9F4F30D0A6250DDA604EEF9 /* UIControl+.swift in Sources */,
+				89B7AD7AAB008DF5AB93B2E0A0498E79 /* UIDevice+.swift in Sources */,
+				A47B2CC975D05C1CF161429031B7861C /* UIImage+.swift in Sources */,
+				F9DA0652FED3D23EB143EB5E9A9C8AF2 /* UILabel+.swift in Sources */,
+				3167AEC4950C3BE6A64A8140C5C64B34 /* UIScreen+.swift in Sources */,
+				DFA6AB5BA9EF60740BA8E951DDEB92A3 /* UIStackView+.swift in Sources */,
+				51874C488FCFE63146821738C5B0C6EE /* UITableView+.swift in Sources */,
+				BCF442690CD5BEA541295F2D2BAC51A9 /* UIView+.swift in Sources */,
+				4E15365A3366700608AEFBC120523CA9 /* URL+.swift in Sources */,
+				C86A9F87FF13039256239AFF64BD6BD9 /* UserDefaults+Codable.swift in Sources */,
+				402593F965D15618F30C4C88DB8243C0 /* WZCAGradientView.swift in Sources */,
+				43909FA0DFA973C09FC96EEE7E9790EB /* WZFoundationExtension-dummy.m in Sources */,
+				259ABA64136ACF210A3AE31E7DE67C6F /* WZGradientButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4EB38D650B2D74C43A939FEC3B5194A4 /* PBXTargetDependency */ = {
+		1F68DFAA176ABF5CF3912439202E8DB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WZNamespaceWrappable;
 			target = 1A655A57748C7717D20FB5E031C49A29 /* WZNamespaceWrappable */;
-			targetProxy = FA4836B90E5BF742A9773EE33FAB2987 /* PBXContainerItemProxy */;
+			targetProxy = 657556DA40878A598762832845D80056 /* PBXContainerItemProxy */;
 		};
-		979BEC47C03C6FA49CDDA1D0BCCA1A27 /* PBXTargetDependency */ = {
+		90F35F957C62D57B634C30D9CE2E6286 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WZFoundationExtension;
 			target = 89AA87A74913538FD0B089D1FCE62E6D /* WZFoundationExtension */;
-			targetProxy = CDB841922983E8CD13B4512F01A9D364 /* PBXContainerItemProxy */;
+			targetProxy = 8D8C0CDBE4C5CC25E23CC3BAF2A5D4A8 /* PBXContainerItemProxy */;
 		};
-		A199724A6BF5874EE0A6F780CA521987 /* PBXTargetDependency */ = {
+		F7F4F878543C1885B7BED13DDA5C4FB5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WZNamespaceWrappable;
 			target = 1A655A57748C7717D20FB5E031C49A29 /* WZNamespaceWrappable */;
-			targetProxy = 9C000E2703016963B686CF8AF9247454 /* PBXContainerItemProxy */;
+			targetProxy = 06F7718CF37199A179CFA057106CE7BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03F30B4396A6E0FCEF9B7DB925B12A63 /* Release */ = {
+		1114E659D91A40EE7BD07FE023950CAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB72E5133E802535C5018DC942B39D27 /* WZFoundationExtension.release.xcconfig */;
+			baseConfigurationReference = FFFC70EC412A649189EE8709E108D8DF /* Pods-WZFoundationExtension_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-WZFoundationExtension_Example/Pods-WZFoundationExtension_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZFoundationExtension_Example/Pods-WZFoundationExtension_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BBF467E22DEDBFC5D19942B52A0AEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45CEE4B2D132B2AE546A13131796C3B /* WZNamespaceWrappable.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -594,10 +631,79 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable.modulemap";
+				PRODUCT_MODULE_NAME = WZNamespaceWrappable;
+				PRODUCT_NAME = WZNamespaceWrappable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6604082BE25F63EB1F16BBC46FB24201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09BEB79F9FD1459BF0C2FCA8FA896126 /* WZFoundationExtension.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/WZFoundationExtension/WZFoundationExtension-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/WZFoundationExtension/WZFoundationExtension-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/WZFoundationExtension/WZFoundationExtension.modulemap";
+				PRODUCT_MODULE_NAME = WZFoundationExtension;
+				PRODUCT_NAME = WZFoundationExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C2AADBF7D4ACE5D8E0EAE542E0FF59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5411CA9B094E5CFEA1CF9786C8F61688 /* WZFoundationExtension.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/WZFoundationExtension/WZFoundationExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZFoundationExtension/WZFoundationExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/WZFoundationExtension/WZFoundationExtension.modulemap";
@@ -614,170 +720,7 @@
 			};
 			name = Release;
 		};
-		03F664C6E514711976FFD537296E0FBA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF02738AB6311640B4A414E0FDB3CB0D /* WZNamespaceWrappable.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable.modulemap";
-				PRODUCT_MODULE_NAME = WZNamespaceWrappable;
-				PRODUCT_NAME = WZNamespaceWrappable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2A20E0921694A9D382B49CBB4BB74069 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFFC70EC412A649189EE8709E108D8DF /* Pods-WZFoundationExtension_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WZFoundationExtension_Example/Pods-WZFoundationExtension_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WZFoundationExtension_Example/Pods-WZFoundationExtension_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		34F3293B90B0F15B151143CE3726E379 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D45CEE4B2D132B2AE546A13131796C3B /* WZNamespaceWrappable.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable.modulemap";
-				PRODUCT_MODULE_NAME = WZNamespaceWrappable;
-				PRODUCT_NAME = WZNamespaceWrappable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		9B03E521B79E89F1AE456489E83B8F1A /* Debug */ = {
+		80D637F3DFCDB2951CE07132E196DDB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A0115B211C04E27173CCEDBD2B3CC388 /* Pods-WZFoundationExtension_Example.debug.xcconfig */;
 			buildSettings = {
@@ -792,9 +735,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-WZFoundationExtension_Example/Pods-WZFoundationExtension_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WZFoundationExtension_Example/Pods-WZFoundationExtension_Example.modulemap";
@@ -811,7 +755,42 @@
 			};
 			name = Debug;
 		};
-		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+		8A58F625D252CB82E27A0735619D4C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF02738AB6311640B4A414E0FDB3CB0D /* WZNamespaceWrappable.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/WZNamespaceWrappable/WZNamespaceWrappable.modulemap";
+				PRODUCT_MODULE_NAME = WZNamespaceWrappable;
+				PRODUCT_NAME = WZNamespaceWrappable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -864,7 +843,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -877,56 +856,85 @@
 			};
 			name = Debug;
 		};
-		C29FA66128B9A4ED0AADDD61B7FA51DD /* Debug */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7689C4DA6F55B3AF09EDEFFD396716A0 /* WZFoundationExtension.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WZFoundationExtension/WZFoundationExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WZFoundationExtension/WZFoundationExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/WZFoundationExtension/WZFoundationExtension.modulemap";
-				PRODUCT_MODULE_NAME = WZFoundationExtension;
-				PRODUCT_NAME = WZFoundationExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		41EF5B59172394C30273CDDEA5BB0126 /* Build configuration list for PBXNativeTarget "WZNamespaceWrappable" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34F3293B90B0F15B151143CE3726E379 /* Debug */,
-				03F664C6E514711976FFD537296E0FBA /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		A9DEB97376519590C87C5BBCD6C0BC56 /* Build configuration list for PBXNativeTarget "WZFoundationExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
-				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+				6604082BE25F63EB1F16BBC46FB24201 /* Debug */,
+				6C2AADBF7D4ACE5D8E0EAE542E0FF59C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -934,17 +942,17 @@
 		BF968B15B24B0E617A1E5D3245548F8E /* Build configuration list for PBXNativeTarget "Pods-WZFoundationExtension_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B03E521B79E89F1AE456489E83B8F1A /* Debug */,
-				2A20E0921694A9D382B49CBB4BB74069 /* Release */,
+				80D637F3DFCDB2951CE07132E196DDB4 /* Debug */,
+				1114E659D91A40EE7BD07FE023950CAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0FFB94D0E022DE5D1D46A23E155DEA4 /* Build configuration list for PBXNativeTarget "WZFoundationExtension" */ = {
+		D18737F9591406FD2116C8D82EFF2793 /* Build configuration list for PBXNativeTarget "WZNamespaceWrappable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C29FA66128B9A4ED0AADDD61B7FA51DD /* Debug */,
-				03F30B4396A6E0FCEF9B7DB925B12A63 /* Release */,
+				4BBF467E22DEDBFC5D19942B52A0AEC8 /* Debug */,
+				8A58F625D252CB82E27A0735619D4C36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
