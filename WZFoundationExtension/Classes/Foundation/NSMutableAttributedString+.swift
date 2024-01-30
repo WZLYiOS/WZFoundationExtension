@@ -161,10 +161,11 @@ public extension WZNamespaceWrappable where Base: NSMutableAttributedString {
     }
     
     /// 富文本添加图片
-    func appendImageAttachment(image: UIImage?) {
+    func appendImageAttachment(image: UIImage?, point: CGPoint = .zero) {
         let attch = NSTextAttachment()
-        attch.bounds = CGRect(x: 0, y: 0, width: image?.size.width ?? 0, height: image?.size.height ?? 0)
         attch.image = image
+        let size = image?.size ?? .zero
+        attch.bounds = CGRect(x: point.x, y: point.y, width: size.width, height: size.height)
         let attachment = NSAttributedString(attachment: attch)
         base.append(attachment)
     }
