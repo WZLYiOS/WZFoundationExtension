@@ -25,15 +25,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
   
         let label = PaddedLabel()
-        label.textContainerInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+//        label.textContainerInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         label.backgroundColor = UIColor.red
         label.textColor = UIColor.white
         label.numberOfLines = 0
-        let text = NSMutableAttributedString(string: "我们是一个非常好的人，所以我们要热爱大自然")
-        text.wz.lineSpacing = 10
-        text.wz.color = UIColor.orange
-        text.wz.setKern(10, range: NSRange(location: 0, length: 1))
-        text.wz.setMarn(space: 30, at: 3)
+        let text = NSMutableAttributedString(string: "10")
+        text.wz.font = UIFont.systemFont(ofSize: 10)
+//        text.wz.lineSpacing = 10
+//        text.wz.color = UIColor.orange
+//        text.wz.setKern(10, range: NSRange(location: 0, length: 1))
+//        text.wz.setMarn(space: 30, at: 3)
+        text.wz.appendImageAttachment(image: UIImage(named: "backpack_jibi"))
         label.attributedText = text
         label.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(label)
