@@ -22,10 +22,10 @@ public extension WZNamespaceWrappable where Base: UIControl {
     /// 响应边界
     var enarlgeAreEdge: UIEdgeInsets? {
         get {
-            return objc_getAssociatedObject(base, &WZControlAssociatedKey.identifier) as? UIEdgeInsets
+            return objc_getAssociatedObject(base, WZControlAssociatedKey.identifier) as? UIEdgeInsets
         }
         set {
-            objc_setAssociatedObject(base, &WZControlAssociatedKey.identifier, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            objc_setAssociatedObject(base, WZControlAssociatedKey.identifier, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
     

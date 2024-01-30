@@ -67,12 +67,19 @@ public extension WZNamespaceWrappable where Base == String {
         return dict
     }
     
-    /// MD5
+    /// MD5 sha256
     var md5: String {
-        let utf8 = base.cString(using: .utf8)
-        var digest = [UInt8](repeating: 0, count: Int(CC_MD5_DIGEST_LENGTH))
-        CC_MD5(utf8, CC_LONG(utf8!.count - 1), &digest)
-        return digest.reduce("") { $0 + String(format:"%02X", $1) }
+//        let utf8 = base.cString(using: .utf8)
+//        var digest = [UInt8](repeating: 0, count: Int(CC_MD5_DIGEST_LENGTH))
+//        CC_MD5(utf8, CC_LONG(utf8!.count - 1), &digest)
+//        return digest.reduce("") { $0 + String(format:"%02X", $1) }
+        guard let data = base.data(using: .utf8) else { return "" }
+        var digest = [UInt8](repeating: 0, count: Int(CC_SHA256_DIGEST_LENGTH))
+        _ = data.withUnsafeBytes { bytes in
+            CC_SHA256(bytes.baseAddress, CC_LONG(data.count), &digest)
+        }
+        let hash = digest.map { String(format: "%02hhx", $0) }.joined()
+        return hash
     }
 }
 

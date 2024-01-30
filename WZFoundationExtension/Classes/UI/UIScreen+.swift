@@ -26,7 +26,7 @@ public extension WZNamespaceWrappable where Base: UIScreen {
     /// 状态栏高度
     static var statusHeight: CGFloat {
         if #available(iOS 13.0, *) {
-            return UIApplication.shared.statusBarFrame.height
+            return UIApplication.shared.windows.first?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0
         } else {
             return 24
         }

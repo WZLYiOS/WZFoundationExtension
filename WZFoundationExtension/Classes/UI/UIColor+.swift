@@ -107,12 +107,12 @@ public extension WZNamespaceWrappable where Base: UIColor {
          //b
          range.location = 4;
          let bStr = cstr.substring(with: range)
-         var r :UInt32 = 0x0;
-         var g :UInt32 = 0x0;
-         var b :UInt32 = 0x0;
-         Scanner.init(string: rStr).scanHexInt32(&r);
-         Scanner.init(string: gStr).scanHexInt32(&g);
-         Scanner.init(string: bStr).scanHexInt32(&b);
+         var r :UInt64 = 0x0;
+         var g :UInt64 = 0x0;
+         var b :UInt64 = 0x0;
+         Scanner.init(string: rStr).scanHexInt64(&r);
+         Scanner.init(string: gStr).scanHexInt64(&g);
+         Scanner.init(string: bStr).scanHexInt64(&b);
         return UIColor.init(red: CGFloat(r)/255.0, green: CGFloat(g)/255.0, blue: CGFloat(b)/255.0, alpha: CGFloat(alpha));
     }
     

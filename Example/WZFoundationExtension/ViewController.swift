@@ -26,7 +26,7 @@ class ViewController: UIViewController {
   
         let label = PaddedLabel()
 //        label.textContainerInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
-        label.backgroundColor = UIColor.red
+        label.backgroundColor = UIColor.wz.hexString(hex: "#DD4BA8")
         label.textColor = UIColor.white
         label.numberOfLines = 0
         let text = NSMutableAttributedString(string: "10")
@@ -36,6 +36,7 @@ class ViewController: UIViewController {
 //        text.wz.setKern(10, range: NSRange(location: 0, length: 1))
 //        text.wz.setMarn(space: 30, at: 3)
         text.wz.appendImageAttachment(image: UIImage(named: "backpack_jibi"))
+        text.wz.insertImageAttachment(image: UIImage(named: "backpack_jibi"), at: 1)
         label.attributedText = text
         label.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(label)
@@ -48,6 +49,8 @@ class ViewController: UIViewController {
         
         let model = TestModel(text: "213")
         debugPrint(model.toString())
+        
+        debugPrint("1sdasdkaSJSDdjs".wz.md5)
     }
 
     override func didReceiveMemoryWarning() {
