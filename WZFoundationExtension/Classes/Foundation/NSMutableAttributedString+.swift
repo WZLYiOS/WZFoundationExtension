@@ -75,12 +75,17 @@ public extension WZNamespaceWrappable where Base: NSMutableAttributedString {
     }
     
     /// 设置文本段落样式的类
-    var paragraphStyle: NSParagraphStyle? {
+    var paragraphStyle: NSParagraphStyle {
         get {
-            return attributes[NSAttributedString.Key.paragraphStyle] as? NSParagraphStyle
+            guard let style = attributes[NSAttributedString.Key.paragraphStyle] as? NSParagraphStyle else {
+                let defaults = NSParagraphStyle.default.mutableCopy() as! NSParagraphStyle
+                setParagraphStyle(defaults)
+                return defaults
+            }
+            return style
         }
         set{
-            setParagraphStyle(newValue ?? NSParagraphStyle.default)
+            setParagraphStyle(newValue)
         }
     }
     func setParagraphStyle(_ paragraphStyle: NSParagraphStyle, range: NSRange? = nil) {
@@ -89,23 +94,23 @@ public extension WZNamespaceWrappable where Base: NSMutableAttributedString {
     
     /// 可变段落
     private var mutableParagraphStyle: NSMutableParagraphStyle {
-        guard let style = base.wz.paragraphStyle?.mutableCopy() as? NSMutableParagraphStyle else {
-            return NSMutableParagraphStyle.default.mutableCopy() as! NSMutableParagraphStyle
+        if let style = base.wz.paragraphStyle as? NSMutableParagraphStyle {
+            return style
         }
-        return style
+        return NSMutableParagraphStyle.default as! NSMutableParagraphStyle
     }
     
     /// 设置行间距
     var lineSpacing: CGFloat {
         get {
-            return base.wz.paragraphStyle?.lineSpacing ?? 0
+            return base.wz.paragraphStyle.lineSpacing
         }
         set{
             setLineSpace(newValue)
         }
     }
     func setLineSpace(_ lineSpace: CGFloat, range: NSRange? = nil){
-        base.wz.mutableParagraphStyle.lineSpacing = lineSpace
+        self.base.wz.mutableParagraphStyle.lineSpacing = lineSpace
         setParagraphStyle(base.wz.mutableParagraphStyle)
     }
     
@@ -215,8 +220,8 @@ public extension WZNamespaceWrappable where Base: NSMutableAttributedString {
 extension NSMutableAttributedString {
     
     /// 简易富文本
-    public convenience init(string: String, lineSpacing: CGFloat? = nil, font: UIFont? = nil, color: UIColor? = nil) {
-        self.init(string: string)
+    public convenience init(_ text: String, lineSpacing: CGFloat? = nil, font: UIFont? = nil, color: UIColor? = nil) {
+        self.init(string: text)
         
         if let f = font {
             self.wz.setFont(font: f)

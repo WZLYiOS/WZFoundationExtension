@@ -82,7 +82,7 @@
 		09BEB79F9FD1459BF0C2FCA8FA896126 /* WZFoundationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZFoundationExtension.debug.xcconfig; sourceTree = "<group>"; };
 		0D4066527504166AB2536DD333EED111 /* Pods-WZFoundationExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZFoundationExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1150CCBA860893FFFE01D255A7ED28B5 /* Bool+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bool+.swift"; path = "WZFoundationExtension/Classes/Foundation/Bool+.swift"; sourceTree = "<group>"; };
-		1260AAAF9C323B4F38179CA5393DB95A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1260AAAF9C323B4F38179CA5393DB95A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1D25E6DA9B1CEBAE7A69F593F7D3E348 /* NSMutableAttributedString+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+.swift"; path = "WZFoundationExtension/Classes/Foundation/NSMutableAttributedString+.swift"; sourceTree = "<group>"; };
 		2062A6E290C21FE672F440DF60D3A333 /* Array+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+.swift"; path = "WZFoundationExtension/Classes/Foundation/Array+.swift"; sourceTree = "<group>"; };
 		20825AD4C4CCEF36239BE06466B1AE89 /* Pods-WZFoundationExtension_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WZFoundationExtension_Example"; path = Pods_WZFoundationExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,7 +112,7 @@
 		94FF2C5E808DFC9AE7DC8AD821E38156 /* PaddedLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaddedLabel.swift; path = WZFoundationExtension/Classes/UI/PaddedLabel.swift; sourceTree = "<group>"; };
 		98EBC9ABAD94232B331E6B5CF77A7AAA /* WZNamespaceWrappable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZNamespaceWrappable-umbrella.h"; sourceTree = "<group>"; };
 		9CA81AB56A0AFD3376B058931A31CB2C /* UIAlertController+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+.swift"; path = "WZFoundationExtension/Classes/UI/UIAlertController+.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E3E596545496DBB8861A0DC94892236 /* UIImage+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+.swift"; path = "WZFoundationExtension/Classes/UI/UIImage+.swift"; sourceTree = "<group>"; };
 		9FEF9F4F86CDBC2D25509BC0A6A99E92 /* WZFoundationExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZFoundationExtension-dummy.m"; sourceTree = "<group>"; };
 		A0115B211C04E27173CCEDBD2B3CC388 /* Pods-WZFoundationExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZFoundationExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		A887EEDEFEAD4F61A302ABEF015F308A /* WZNamespaceWrappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WZNamespaceWrappable.swift; path = WZNamespaceWrappable/Classes/WZNamespaceWrappable.swift; sourceTree = "<group>"; };
 		AD15049A1876469CC8440E5E58EE8BDD /* URL+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+.swift"; path = "WZFoundationExtension/Classes/Foundation/URL+.swift"; sourceTree = "<group>"; };
 		AD4434885F4AC1CB5BFAFA4F39625CFF /* UITableView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+.swift"; path = "WZFoundationExtension/Classes/UI/UITableView+.swift"; sourceTree = "<group>"; };
-		AD4ECACD27FB1E7F3C20AE714378888A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AD4ECACD27FB1E7F3C20AE714378888A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AEA3CFC5919A522FD5BB1A6DF29204FD /* UIScreen+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+.swift"; path = "WZFoundationExtension/Classes/UI/UIScreen+.swift"; sourceTree = "<group>"; };
 		AF02738AB6311640B4A414E0FDB3CB0D /* WZNamespaceWrappable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZNamespaceWrappable.release.xcconfig; sourceTree = "<group>"; };
 		B47CE000F804A798B071A469E0B899C0 /* WZNamespaceWrappable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZNamespaceWrappable.modulemap; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		D826A196A825C971A78FA2A463370758 /* String+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+.swift"; path = "WZFoundationExtension/Classes/Foundation/String+.swift"; sourceTree = "<group>"; };
 		E4B896D2D95C90E9CAB7F11C601A61FD /* WZNamespaceWrappable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZNamespaceWrappable-Info.plist"; sourceTree = "<group>"; };
 		ECF8D68FF64E906328FF4D5E76750DD8 /* Pods-WZFoundationExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZFoundationExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F3929345B93246B800EDDA5FB15E8AB5 /* WZFoundationExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WZFoundationExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F3929345B93246B800EDDA5FB15E8AB5 /* WZFoundationExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WZFoundationExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F50B2B15087B657DCA3EAEF464318897 /* DispatchSourceTimer+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchSourceTimer+.swift"; path = "WZFoundationExtension/Classes/Foundation/DispatchSourceTimer+.swift"; sourceTree = "<group>"; };
 		F595379D1D7FAF67CA36F3DA7555376E /* WZCAGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WZCAGradientView.swift; path = WZFoundationExtension/Classes/UI/WZCAGradientView.swift; sourceTree = "<group>"; };
 		F99C5AFDC3A6307A8306D73C65A2FD8E /* WZFoundationExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZFoundationExtension-Info.plist"; sourceTree = "<group>"; };
@@ -308,7 +308,6 @@
 				A887EEDEFEAD4F61A302ABEF015F308A /* WZNamespaceWrappable.swift */,
 				9BDC15F87DB635C921CF1E9642996EBE /* Support Files */,
 			);
-			name = WZNamespaceWrappable;
 			path = WZNamespaceWrappable;
 			sourceTree = "<group>";
 		};
@@ -911,8 +910,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
