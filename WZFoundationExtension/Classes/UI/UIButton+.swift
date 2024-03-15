@@ -192,9 +192,16 @@ public extension WZNamespaceWrappable where Base: UIButton {
     /// - Parameter spacing: 在UIButton标题文本和UIButton图像之间的间隔。
     func centerTextAndImage(spacing: CGFloat) {
         let insetAmount = spacing / 2
-        base.imageEdgeInsets = UIEdgeInsets(top: 0, left: -insetAmount, bottom: 0, right: insetAmount)
-        base.titleEdgeInsets = UIEdgeInsets(top: 0, left: insetAmount, bottom: 0, right: -insetAmount)
-        base.contentEdgeInsets = UIEdgeInsets(top: 0, left: insetAmount, bottom: 0, right: insetAmount)
+        
+        if UIView.appearance().semanticContentAttribute == .forceRightToLeft {
+            base.imageEdgeInsets = UIEdgeInsets(top: 0, left: insetAmount, bottom: 0, right: -insetAmount)
+            base.titleEdgeInsets = UIEdgeInsets(top: 0, left: -insetAmount, bottom: 0, right: insetAmount)
+            base.contentEdgeInsets = UIEdgeInsets(top: 0, left: insetAmount, bottom: 0, right: insetAmount)
+        }else{
+            base.imageEdgeInsets = UIEdgeInsets(top: 0, left: -insetAmount, bottom: 0, right: insetAmount)
+            base.titleEdgeInsets = UIEdgeInsets(top: 0, left: insetAmount, bottom: 0, right: -insetAmount)
+            base.contentEdgeInsets = UIEdgeInsets(top: 0, left: insetAmount, bottom: 0, right: insetAmount)
+        }
     }
     
     /// 右侧图片
@@ -206,9 +213,15 @@ public extension WZNamespaceWrappable where Base: UIButton {
         let titleSize = base.titleRect(forContentRect: contentRect).size
         let imageSize = base.imageRect(forContentRect: contentRect).size
         
-        base.contentEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: CGFloat(space))
-        base.titleEdgeInsets = UIEdgeInsets(top: 0, left: -imageSize.width, bottom: 0, right: imageSize.width)
-        base.imageEdgeInsets = UIEdgeInsets(top: 0, left: titleSize.width+CGFloat(space), bottom: CGFloat(imageBottom), right: -titleSize.width-CGFloat(space))
+        if UIView.appearance().semanticContentAttribute == .forceRightToLeft {
+            base.contentEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: CGFloat(space))
+            base.titleEdgeInsets = UIEdgeInsets(top: 0, left: imageSize.width, bottom: 0, right: imageSize.width)
+            base.imageEdgeInsets = UIEdgeInsets(top: 0, left: titleSize.width+CGFloat(space), bottom: CGFloat(imageBottom), right: titleSize.width-CGFloat(space))
+        }else{
+            base.contentEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: CGFloat(space))
+            base.titleEdgeInsets = UIEdgeInsets(top: 0, left: -imageSize.width, bottom: 0, right: imageSize.width)
+            base.imageEdgeInsets = UIEdgeInsets(top: 0, left: titleSize.width+CGFloat(space), bottom: CGFloat(imageBottom), right: -titleSize.width-CGFloat(space))
+        }
     }
     
     /// 左侧图片
