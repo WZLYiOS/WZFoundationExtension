@@ -1,7 +1,7 @@
 {
   "name": "WZFoundationExtension",
-  "version": "3.2.8",
-  "summary": "FoundationExtension   .",
+  "version": "3.2.9",
+  "summary": "FoundationExtension.",
   "description": "TODO: Add long de",
   "homepage": "https://github.com/WZLYiOS/WZFoundationExtension.git",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/WZLYiOS/WZFoundationExtension.git",
-    "tag": "3.2.8"
+    "tag": "3.2.9"
   },
   "static_framework": true,
   "swift_versions": "5.0",
@@ -29,7 +29,7 @@
   "subspecs": [
     {
       "name": "Foundation",
-      "source_files": "WZFoundationExtension/Classes/Foundation/*"
+      "source_files": "WZFoundationExtension/Classes/Foundation/*{.h,.m,.swift}"
     },
     {
       "name": "UI",

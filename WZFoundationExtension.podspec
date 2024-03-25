@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WZFoundationExtension'
-  s.version          = '3.2.8'
+  s.version          = '3.2.9'
   s.summary          = 'FoundationExtension.'
   s.description      = <<-DESC
 TODO: Add long de
@@ -18,7 +18,7 @@ TODO: Add long de
   s.dependency 'WZNamespaceWrappable', '>= 2.1.3'
 
   s.subspec 'Foundation' do |ss|
-       ss.source_files = 'WZFoundationExtension/Classes/Foundation/*'
+       ss.source_files = 'WZFoundationExtension/Classes/Foundation/*{.h,.m,.swift}'
    end
      
    s.subspec 'UI' do |ss|

@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "NSArray+Log.h"
+#import "NSDictionary+Log.h"
 
 FOUNDATION_EXPORT double WZFoundationExtensionVersionNumber;
 FOUNDATION_EXPORT const unsigned char WZFoundationExtensionVersionString[];
