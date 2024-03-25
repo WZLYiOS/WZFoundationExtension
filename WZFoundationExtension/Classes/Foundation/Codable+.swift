@@ -9,7 +9,6 @@
 //
 
 import Foundation
-import WZNamespaceWrappable
 
 // MARK - 数据转换
 public extension Encodable {

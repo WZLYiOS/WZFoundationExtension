@@ -8,7 +8,6 @@
 
 import UIKit
 import WZFoundationExtension
-import WZNamespaceWrappable
 
 struct TestModel: Codable {
     let text: String

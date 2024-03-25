@@ -8,10 +8,9 @@
 
 import Foundation
 import CommonCrypto
-import WZNamespaceWrappable
 
 // MARK - 扩展
-public extension WZNamespaceWrappable where Base == String {
+public extension NamespaceWrappable where Base == String {
     
     /// 获取字符串宽高
     /// - Parameters:

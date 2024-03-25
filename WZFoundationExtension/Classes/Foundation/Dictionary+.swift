@@ -8,11 +8,6 @@
 
 import Foundation
 import CommonCrypto
-import WZNamespaceWrappable
-
-
-extension Dictionary: WZNamespaceCompatibleValue { }
-
 
 /// 合并协议
 public protocol Mergable {
@@ -35,7 +30,7 @@ public extension Dictionary where Value : Mergable {
 }
 
 
-extension WZNamespaceWrappable where Base == Dictionary<AnyHashable, Any> {
+extension NamespaceWrappable where Base == Dictionary<AnyHashable, Any> {
     
     /// 转string
     var stringValue: String {

@@ -9,10 +9,9 @@
 //
 
 import Foundation
-import WZNamespaceWrappable
 
 /// MARK - 扩展
-public extension WZNamespaceWrappable where Base: UIDevice {
+public extension NamespaceWrappable where Base: UIDevice {
     
     /// 退出app
     static func exitApplication() {

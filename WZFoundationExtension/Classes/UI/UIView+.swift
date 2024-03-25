@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import WZNamespaceWrappable
 
 /// 圆角
 public enum WZCornerRadii {
@@ -17,7 +16,7 @@ case bottomRight(CGFloat)
 }
 
 /// MARK: - UIView
-public extension WZNamespaceWrappable where Base: UIView {
+public extension NamespaceWrappable where Base: UIView {
 
     /// 设置平滑圆角
     /// - Parameter radius: radius

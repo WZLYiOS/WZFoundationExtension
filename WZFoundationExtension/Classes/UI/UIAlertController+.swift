@@ -7,11 +7,9 @@
 //
 
 import UIKit
-import WZNamespaceWrappable
-
 
 /// MARK - UIAlertController +
-public extension WZNamespaceWrappable where Base: UIAlertController {
+public extension NamespaceWrappable where Base: UIAlertController {
     
     
     /// 提示框(取消就是传-1)

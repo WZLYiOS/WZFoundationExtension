@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import WZNamespaceWrappable
 
 extension URL {
 
@@ -32,10 +31,10 @@ extension URLComponents {
     }
 }
 
-extension URL: WZNamespaceCompatibleValue { }
+
 
 /// MARK - 扩展
-public extension WZNamespaceWrappable where Base == URL {
+public extension NamespaceWrappable where Base == URL {
     
     /// 获取url里参数
     var queryItemValues: [String: String] {

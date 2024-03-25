@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import WZNamespaceWrappable
 
 private struct WZButtonCustomEdgeInset {
     static var top: String = "topkey"
@@ -17,7 +16,7 @@ private struct WZButtonCustomEdgeInset {
 }
 
 /// MARK - 按钮
-public extension WZNamespaceWrappable where Base: UIButton {
+public extension NamespaceWrappable where Base: UIButton {
     
     enum RGButtonImagePosition {
     case top          //图片在上，文字在下，垂直居中对齐

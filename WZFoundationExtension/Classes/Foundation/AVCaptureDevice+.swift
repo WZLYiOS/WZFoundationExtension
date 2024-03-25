@@ -7,10 +7,9 @@
 
 import Foundation
 import AVFoundation
-import WZNamespaceWrappable
 
 // MARK - 设备授权
-public extension WZNamespaceWrappable where Base: AVCaptureDevice {
+public extension NamespaceWrappable where Base: AVCaptureDevice {
     
     /// 视频校验权限
     static func authorizationVideoStatus(comple: ((_ granted: Bool) -> Void)?) {

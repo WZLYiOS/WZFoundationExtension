@@ -9,13 +9,12 @@
 //
 
 import Foundation
-import WZNamespaceWrappable
 import Photos
 
 
 // MARK - 资源
 private var imageAssetPathKey: Void?
-extension WZNamespaceWrappable where Base == PHAsset {
+extension NamespaceWrappable where Base == PHAsset {
     
 
     func getURL(completionHandler : @escaping ((_ responseURL : URL?) -> Void)){

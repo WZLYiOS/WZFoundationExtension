@@ -7,10 +7,9 @@
 //
 
 import UIKit
-import WZNamespaceWrappable
 
 /// MARK: - UITableView
-public extension WZNamespaceWrappable where Base: UITableView {
+public extension NamespaceWrappable where Base: UITableView {
     
     
     /// 索引路径tableview最后一排

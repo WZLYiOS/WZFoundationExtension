@@ -9,7 +9,6 @@
 //
 
 import Foundation
-import WZNamespaceWrappable
 
 #if os(iOS)
 import UIKit
@@ -62,9 +61,7 @@ public postfix func % (percent: CGFloat) -> CGFloat {
 }
 
 // 颜色
-public extension WZNamespaceWrappable where Base: UIColor {
-    
-    
+public extension NamespaceWrappable where Base: UIColor {
     
     /// RGB
     static func rgb(r: CGFloat, g: CGFloat, b: CGFloat, alpha: CGFloat = 1.0) -> UIColor {

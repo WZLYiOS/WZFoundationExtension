@@ -7,10 +7,9 @@
 //
 
 import UIKit
-import WZNamespaceWrappable
 
 // MARK: - 扩展
-public extension WZNamespaceWrappable where Base: UIImage {
+public extension NamespaceWrappable where Base: UIImage {
     
     /// UIImage字节大小
     var bytesSize: Int {

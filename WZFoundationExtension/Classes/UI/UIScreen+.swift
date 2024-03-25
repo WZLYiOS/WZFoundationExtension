@@ -9,10 +9,9 @@
 //
 
 import Foundation
-import WZNamespaceWrappable
 
 // 一些配置
-public extension WZNamespaceWrappable where Base: UIScreen {
+public extension NamespaceWrappable where Base: UIScreen {
     
     /// 安全区域底部
     static var safeAreaInsetsBottom: CGFloat {

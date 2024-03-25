@@ -6,10 +6,9 @@
 //
 
 import Foundation
-import WZNamespaceWrappable
 
 /// MARK -  NSMutableAttributedString扩展
-public extension WZNamespaceWrappable where Base: NSMutableAttributedString {
+public extension NamespaceWrappable where Base: NSMutableAttributedString {
     
     /// 富文本容器
     var attributes: [NSAttributedString.Key: Any] {

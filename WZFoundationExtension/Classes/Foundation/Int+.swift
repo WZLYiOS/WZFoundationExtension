@@ -8,10 +8,9 @@
 
 import UIKit
 import Foundation
-import WZNamespaceWrappable
 
 
-public extension WZNamespaceWrappable where Base == Int {
+public extension NamespaceWrappable where Base == Int {
     
     /// rgb
     var color: UIColor {

@@ -7,11 +7,10 @@
 //
 
 import UIKit
-import WZNamespaceWrappable
 
 
 // MARK: - UICollectionView
-public extension WZNamespaceWrappable where Base: UICollectionView {
+public extension NamespaceWrappable where Base: UICollectionView {
     
     /// 最后一项在collectionView中的索引路径
     var indexPathForLastItem: IndexPath? {

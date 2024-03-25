@@ -6,10 +6,9 @@
 //
 
 import Foundation
-import WZNamespaceWrappable
 
 // MARK: - 扩展定时器
-public extension WZNamespaceWrappable where Base: Timer {
+public extension NamespaceWrappable where Base: Timer {
     
     static func scheduledTimer(timeInterval ti: TimeInterval, target aTarget: NSObjectProtocol, selector aSelector: Selector, userInfo aInfo: Any?, repeats yesOrNo: Bool) -> Timer {
         

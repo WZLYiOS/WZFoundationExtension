@@ -9,7 +9,6 @@
 //
 
 import Foundation
-import WZNamespaceWrappable
 
 /// 存储位置
 private struct WZControlAssociatedKey {
@@ -17,7 +16,7 @@ private struct WZControlAssociatedKey {
 }
 
 /// 扩展
-public extension WZNamespaceWrappable where Base: UIControl {
+public extension NamespaceWrappable where Base: UIControl {
     
     /// 响应边界
     var enarlgeAreEdge: UIEdgeInsets? {

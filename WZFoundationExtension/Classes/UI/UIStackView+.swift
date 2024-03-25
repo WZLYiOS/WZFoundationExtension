@@ -9,10 +9,9 @@
 //
 
 import Foundation
-import WZNamespaceWrappable
 
 /// MARK: - UIStackView
-public extension WZNamespaceWrappable where Base: UIStackView {
+public extension NamespaceWrappable where Base: UIStackView {
     
     /// 添加视图
     func addSubviews(_ list: [UIView]) {

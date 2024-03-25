@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import WZNamespaceWrappable
 
 /// MARK - date + 
 public extension Date {
@@ -901,7 +900,7 @@ public enum DateWeekType: String {
 }
 
 // MARK - 扩展
-public extension WZNamespaceWrappable where Base == Date {
+public extension NamespaceWrappable where Base == Date {
     
   
     /// 时间戳转时间

@@ -8,10 +8,9 @@
 
 import UIKit
 import Foundation
-import WZNamespaceWrappable
 
 /// MARK - Bundle
-public extension WZNamespaceWrappable where Base == Bundle {
+public extension NamespaceWrappable where Base == Bundle {
     
     enum InfoKey: String {
         case shortVersion = "CFBundleShortVersionString"
