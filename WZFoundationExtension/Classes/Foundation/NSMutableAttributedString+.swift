@@ -12,8 +12,11 @@ public extension NamespaceWrappable where Base: NSMutableAttributedString {
     
     /// 富文本容器
     var attributes: [NSAttributedString.Key: Any] {
-        let dic = base.attributes(at: 0, effectiveRange: nil)
-        return dic 
+        if base.length > 0 {
+            var effectiveRange = NSRange()
+            return base.attributes(at: 0, effectiveRange: &effectiveRange)
+        }
+        return [:]
     }
     
     /// 获取当前的

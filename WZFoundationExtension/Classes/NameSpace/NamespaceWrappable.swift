@@ -57,3 +57,4 @@ extension Array: NamespaceCompatibleValue { }
 extension Bool: NamespaceCompatibleValue { }
 extension Dictionary: NamespaceCompatibleValue { }
 extension Decimal: NamespaceCompatibleValue { }
+extension URL: NamespaceCompatibleValue { }

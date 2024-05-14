@@ -30,7 +30,7 @@ public extension Dictionary where Value : Mergable {
 }
 
 
-extension NamespaceWrappable where Base == Dictionary<AnyHashable, Any> {
+public extension NamespaceWrappable where Base == Dictionary<AnyHashable, Any> {
     
     /// 转string
     var stringValue: String {

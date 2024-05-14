@@ -67,9 +67,9 @@ class ViewController: UIViewController {
     }
     
     func test2(){
-        let text = NSMutableAttributedString(string: "四大行打卡机啊好的看很大可视角度哈可视角度哈苏卡达会尽快稍等哈")
+        let text = NSMutableAttributedString(string: "グ・アンランさんは結婚式前夜、婚約者の浮気に遭遇し、怒りのあまり結婚しました。夫はハンサムで、毎日妻を溺愛していました。もともと普通の結婚生活を送りたかったのですが、そうではありませんでした。相手が億万長者の CEO だとは思いませんでした。")
         text.wz.font = UIFont.systemFont(ofSize: 10)
-        text.wz.lineSpacing = 100
+        text.wz.lineSpacing = 1
         text.wz.alignment = .center
         label.attributedText = text
     }
