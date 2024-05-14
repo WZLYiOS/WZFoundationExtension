@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WZFoundationExtension'
   s.version          = '3.3.2'
-  s.summary          = 'FoundationExtension'
+  s.summary          = 'FoundationExtension sda '
   s.description      = <<-DESC
 TODO: Add long de
                        DESC
