@@ -318,29 +318,34 @@ public extension NamespaceWrappable where Base: UIButton {
     
     /// 设置边界
     func setEnlargeEdge(_ edge: CGFloat) {
-        setEnlargeEdge(edge, edge, edge, edge)
-    }
-    
-    /// 设置按钮边界
-    func setEnlargeEdge(_ top: CGFloat,_ bot: CGFloat,_ left: CGFloat,_ right: CGFloat) {
-        
-        objc_setAssociatedObject(base, WZButtonCustomEdgeInset.top, top, .OBJC_ASSOCIATION_COPY_NONATOMIC)
-        objc_setAssociatedObject(base, WZButtonCustomEdgeInset.left, left, .OBJC_ASSOCIATION_COPY_NONATOMIC)
-        objc_setAssociatedObject(base, WZButtonCustomEdgeInset.right, right, .OBJC_ASSOCIATION_COPY_NONATOMIC)
-        objc_setAssociatedObject(base, WZButtonCustomEdgeInset.bottom, bot, .OBJC_ASSOCIATION_COPY_NONATOMIC)
+        base.setEnlargeEdge(edge, edge, edge, edge)
     }
 }
 
+
+private var topEnlargeKey: UInt8 = 2
+private var botEnlargeKey: UInt8 = 3
+private var leftEnlargeKey: UInt8 = 4
+private var rightEnlargeKey: UInt8 = 5
 /// MARK - 按钮点击范围
 extension UIButton {
     
+    /// 设置按钮边界
+    func setEnlargeEdge(_ top: CGFloat,_ bot: CGFloat,_ left: CGFloat,_ right: CGFloat) {
+
+        objc_setAssociatedObject(self, &topEnlargeKey, top, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        objc_setAssociatedObject(self, &botEnlargeKey, bot, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        objc_setAssociatedObject(self, &leftEnlargeKey, left, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        objc_setAssociatedObject(self, &rightEnlargeKey, right, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+    }
+    
     /// 获取边界
     private func returnRect() -> CGRect{
-
-        guard let top = objc_getAssociatedObject(self, WZButtonCustomEdgeInset.top) as? CGFloat,
-                let left = objc_getAssociatedObject(self, WZButtonCustomEdgeInset.left) as? CGFloat,
-                let bot = objc_getAssociatedObject(self, WZButtonCustomEdgeInset.bottom) as? CGFloat,
-              let right = objc_getAssociatedObject(self, WZButtonCustomEdgeInset.right) as? CGFloat else {
+        
+        guard let top = objc_getAssociatedObject(self, &topEnlargeKey) as? CGFloat,
+                let left = objc_getAssociatedObject(self, &botEnlargeKey) as? CGFloat,
+                let bot = objc_getAssociatedObject(self,  &leftEnlargeKey) as? CGFloat,
+              let right = objc_getAssociatedObject(self, &rightEnlargeKey) as? CGFloat else {
             return self.bounds
         }
         return CGRect(x: self.bounds.origin.x-left,
